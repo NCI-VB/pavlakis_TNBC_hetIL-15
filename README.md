@@ -13,9 +13,10 @@ R package versions used are below:
 - MSigDB v6.2
 - GSVA v1.30.0
 
-Each workbook folder conatins input data and code related to the indicated figures:
+Each workbook folder conatins input data and code related to the indicated figures below
 - datasets are in the "nidap_downloads" subfolder
 - rds objects are in the "rds_output" subfolder
+- run_pipeline_R.R indicates the order the scripts are intended to be run
 
 ### Workbook_1 : Nanostring volcano plots
 - Figure 2A, 2B, 2C, S2A, S2B, S2C
