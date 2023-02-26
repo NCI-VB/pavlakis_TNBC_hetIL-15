@@ -1,0 +1,37 @@
+Cell_type,Gene
+B-cells,Blk
+DC,Ccl2
+Macrophages,Cd163
+B-cells,Cd19
+DC,Cd209e
+Exhausted CD8,Cd244
+T-cells,Cd3d
+T-cells,Cd3e
+T-cells,Cd3g
+T-cells,Cd6
+Macrophages,Cd68
+Macrophages,Cd84
+CD8 T cells,Cd8a
+CD8 T cells,Cd8b1
+Neutrophils,Csf3r
+Cytotoxic cells,Ctsw
+Exhausted CD8,Eomes
+Neutrophils,Fcgr4
+Treg,Foxp3
+Cytotoxic cells,Gzma
+Cytotoxic cells,Gzmb
+DC,Hsd11b1
+NK CD56dim cells,Il21r
+Cytotoxic cells,Klrb1
+Cytotoxic cells,Klrd1
+Cytotoxic cells,Klrk1
+Exhausted CD8,Lag3
+B-cells,Ms4a1
+Mast cells,Ms4a2
+NK cells,Ncr1
+Cytotoxic cells,Prf1
+CD45,Ptprc
+T-cells,Sh2d1a
+Th1 cells,Tbx21
+B-cells,Tnfrsf17
+NK cells,Xcl1

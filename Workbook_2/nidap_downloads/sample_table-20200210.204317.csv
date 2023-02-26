@@ -1,0 +1,37 @@
+sample_name,animal_id,timepoint,tissue,treatment,batch
+Lymph CTRL 321,321,day_3,lymph_node,control,1
+Lymph CTRL 327,327,day_3,lymph_node,control,1
+Lymph CTRL 331,331,day_3,lymph_node,control,1
+Lymph IL15 320,320,day_3,lymph_node,IL15,1
+Lymph IL15 338,338,day_3,lymph_node,IL15,1
+Lymph IL15 339,339,day_3,lymph_node,IL15,1
+Lymph CTRL 203,203,day_1,lymph_node,control,1
+Lymph CTRL 205,205,day_1,lymph_node,control,1
+Lymph CTRL 206,206,day_1,lymph_node,control,1
+Lymph IL15 209,209,day_1,lymph_node,IL15,1
+Lymph IL15 215,215,day_1,lymph_node,IL15,1
+Lymph IL15 216,216,day_1,lymph_node,IL15,1
+Tumor CTRL 321,321,day_3,tumor,control,2
+Tumor CTRL 327,327,day_3,tumor,control,2
+Tumor CTRL 331,331,day_3,tumor,control,2
+Tumor IL15 320,320,day_3,tumor,IL15,2
+Tumor IL15 338,338,day_3,tumor,IL15,2
+Tumor IL15 339,339,day_3,tumor,IL15,2
+Tumor CTRL 203,203,day_1,tumor,control,2
+Tumor CTRL 205,205,day_1,tumor,control,2
+Tumor CTRL 206,206,day_1,tumor,control,2
+Tumor IL15 209,209,day_1,tumor,IL15,2
+Tumor IL15 215,215,day_1,tumor,IL15,2
+Tumor IL15 216,216,day_1,tumor,IL15,2
+LN Control 301,301,day_2,lymph_node,control,3
+LN Control 304,304,day_2,lymph_node,control,3
+LN Control 324,324,day_2,lymph_node,control,3
+LN IL15 Treated 684,684,day_2,lymph_node,IL15,3
+LN IL15 Treated  336,336,day_2,lymph_node,IL15,3
+LN IL15 Treated 340,340,day_2,lymph_node,IL15,3
+Tumor Control 301,301,day_2,tumor,control,3
+Tumor Control 304,304,day_2,tumor,control,3
+Tumor Control 324,324,day_2,tumor,control,3
+Tumor IL15 Treated 684,684,day_2,tumor,IL15,3
+Tumor IL15 Treated 336,336,day_2,tumor,IL15,3
+Tumor IL15 Treated 340,340,day_2,tumor,IL15,3
