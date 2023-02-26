@@ -3,7 +3,7 @@
 
 This repo contains scripts for analysis of scRNAseq, bulkRNAseq and Nanostring data as described in Stellas & Karaliota et al. Cell Reports 2023
 
-The original analysis was run using the NIH Integrated Data Analysis Platform (NIDAP), which lies behind government firewalls and unfortunately cannot be accessed by external collaborators. The underlying code and datasets have been collected here to describe the logic parameters used for the analyses presented in the paper, but may still contain oddities idiosynchratic to NIDAP. 
+The original analysis was run using the NIH Integrated Data Analysis Platform (NIDAP), which lies behind government firewalls and unfortunately cannot be accessed by external collaborators. The underlying code and datasets have been collected here to describe the logic parameters used for the analyses presented in the paper, and may still contain oddities idiosynchratic to NIDAP. 
 
 R package versions used are below:
 
