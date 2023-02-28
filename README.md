@@ -3,7 +3,7 @@
 
 This repo contains scripts for analysis of scRNAseq, bulkRNAseq and Nanostring data as described in Stellas & Karaliota et al. Cell Reports 2023
 
-The original analysis was run using the NIH Integrated Data Analysis Platform (NIDAP), which lies behind government firewalls and unfortunately cannot be accessed by external collaborators. The underlying code and datasets have been collected here to describe the logic parameters used for the analyses presented in the paper, and may still contain oddities idiosynchratic to NIDAP. 
+The original analysis was run using the NIH Integrated Data Analysis Platform (NIDAP), which is hosted behind NIH firewall and unfortunately cannot be accessed by external collaborators. The underlying code and datasets have been extracted from the platform and collected here to describe the logic parameters used for the analyses presented in the paper. The code has some NIDAP platform specific comments & variables, but encapsulates the core logic and analysis flow.
 
 R package versions used are below:
 
@@ -13,7 +13,7 @@ R package versions used are below:
 - MSigDB v6.2
 - GSVA v1.30.0
 
-Each workbook folder conatins input data and code related to the indicated figures below
+Each workbook folder contains input data and code related to the indicated figures below
 - datasets are in the "nidap_downloads" subfolder
 - rds objects are in the "rds_output" subfolder
 - run_pipeline_R.R indicates the order the scripts are intended to be run
@@ -44,3 +44,5 @@ Each workbook folder conatins input data and code related to the indicated figur
 
 ### Workbook_7 : scRNAseq violin plots
 - Figure S6C
+
+Questions can be directed to kate.goldfarbmuren@nih.gov
