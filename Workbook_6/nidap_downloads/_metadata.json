@@ -1,0 +1,4700 @@
+{
+  "type": "foundryObjectMetadataV4",
+  "foundryObjectMetadataV4": {
+    "objectClass": "RFoundryObject",
+    "objectModule": "FRObjects",
+    "environment": {
+      "language": "R",
+      "versionString": "3.5.1",
+      "versionDetails": {
+        "platform": "x86_64-conda_cos6-linux-gnu",
+        "arch": "x86_64",
+        "os": "linux-gnu",
+        "system": "x86_64, linux-gnu",
+        "status": "",
+        "major": "3",
+        "minor": "5.1",
+        "year": "2018",
+        "month": "07",
+        "day": "02",
+        "svn rev": "74947",
+        "language": "R",
+        "version.string": "R version 3.5.1 (2018-07-02)",
+        "nickname": "Feather Spray"
+      },
+      "condaPackages": [
+        {
+          "buildString": "conda_forge",
+          "name": "_libgcc_mutex",
+          "distName": "_libgcc_mutex-0.1-conda_forge",
+          "buildNumber": 0,
+          "version": "0.1"
+        },
+        {
+          "buildString": "1_llvm",
+          "name": "_openmp_mutex",
+          "distName": "_openmp_mutex-4.5-1_llvm",
+          "buildNumber": 1,
+          "version": "4.5"
+        },
+        {
+          "buildString": "anacondar_1",
+          "name": "_r-mutex",
+          "distName": "_r-mutex-1.0.1-anacondar_1",
+          "buildNumber": 1,
+          "version": "1.0.1"
+        },
+        {
+          "buildString": "py36h117bdfb_0",
+          "name": "arrow-cpp",
+          "distName": "arrow-cpp-0.13.0-py36h117bdfb_0",
+          "buildNumber": 0,
+          "version": "0.13.0"
+        },
+        {
+          "buildString": "ha228f0b_4",
+          "name": "bcftools",
+          "distName": "bcftools-1.9-ha228f0b_4",
+          "buildNumber": 4,
+          "version": "1.9"
+        },
+        {
+          "buildString": "h18a2f87_9",
+          "name": "binutils_impl_linux-64",
+          "distName": "binutils_impl_linux-64-2.35-h18a2f87_9",
+          "buildNumber": 9,
+          "version": "2.35"
+        },
+        {
+          "buildString": "hc3fd857_29",
+          "name": "binutils_linux-64",
+          "distName": "binutils_linux-64-2.35-hc3fd857_29",
+          "buildNumber": 29,
+          "version": "2.35"
+        },
+        {
+          "buildString": "r351_0",
+          "name": "bioconductor-all",
+          "distName": "bioconductor-all-1.24.0-r351_0",
+          "buildNumber": 0,
+          "version": "1.24.0"
+        },
+        {
+          "buildString": "r351_0",
+          "name": "bioconductor-annotate",
+          "distName": "bioconductor-annotate-1.60.1-r351_0",
+          "buildNumber": 0,
+          "version": "1.60.1"
+        },
+        {
+          "buildString": "r351_0",
+          "name": "bioconductor-annotationdbi",
+          "distName": "bioconductor-annotationdbi-1.44.0-r351_0",
+          "buildNumber": 0,
+          "version": "1.44.0"
+        },
+        {
+          "buildString": "r351_0",
+          "name": "bioconductor-annotationfilter",
+          "distName": "bioconductor-annotationfilter-1.6.0-r351_0",
+          "buildNumber": 0,
+          "version": "1.6.0"
+        },
+        {
+          "buildString": "r351_0",
+          "name": "bioconductor-annotationforge",
+          "distName": "bioconductor-annotationforge-1.24.0-r351_0",
+          "buildNumber": 0,
+          "version": "1.24.0"
+        },
+        {
+          "buildString": "r351hf484d3e_0",
+          "name": "bioconductor-apeglm",
+          "distName": "bioconductor-apeglm-1.4.1-r351hf484d3e_0",
+          "buildNumber": 0,
+          "version": "1.4.1"
+        },
+        {
+          "buildString": "r351_1",
+          "name": "bioconductor-aroma.light",
+          "distName": "bioconductor-aroma.light-3.12.0-r351_1",
+          "buildNumber": 1,
+          "version": "3.12.0"
+        },
+        {
+          "buildString": "r351hf484d3e_1",
+          "name": "bioconductor-beachmat",
+          "distName": "bioconductor-beachmat-1.4.0-r351hf484d3e_1",
+          "buildNumber": 1,
+          "version": "1.4.0"
+        },
+        {
+          "buildString": "r351h14c3975_1",
+          "name": "bioconductor-biobase",
+          "distName": "bioconductor-biobase-2.42.0-r351h14c3975_1",
+          "buildNumber": 1,
+          "version": "2.42.0"
+        },
+        {
+          "buildString": "r351_1",
+          "name": "bioconductor-biocgenerics",
+          "distName": "bioconductor-biocgenerics-0.28.0-r351_1",
+          "buildNumber": 1,
+          "version": "0.28.0"
+        },
+        {
+          "buildString": "r351hf484d3e_0",
+          "name": "bioconductor-biocneighbors",
+          "distName": "bioconductor-biocneighbors-1.0.0-r351hf484d3e_0",
+          "buildNumber": 0,
+          "version": "1.0.0"
+        },
+        {
+          "buildString": "r351h1c2f66e_0",
+          "name": "bioconductor-biocparallel",
+          "distName": "bioconductor-biocparallel-1.16.6-r351h1c2f66e_0",
+          "buildNumber": 0,
+          "version": "1.16.6"
+        },
+        {
+          "buildString": "r351_0",
+          "name": "bioconductor-biocviews",
+          "distName": "bioconductor-biocviews-1.50.9-r351_0",
+          "buildNumber": 0,
+          "version": "1.50.9"
+        },
+        {
+          "buildString": "r351_0",
+          "name": "bioconductor-biomart",
+          "distName": "bioconductor-biomart-2.38.0-r351_0",
+          "buildNumber": 0,
+          "version": "2.38.0"
+        },
+        {
+          "buildString": "r351_0",
+          "name": "bioconductor-biomformat",
+          "distName": "bioconductor-biomformat-1.10.1-r351_0",
+          "buildNumber": 0,
+          "version": "1.10.1"
+        },
+        {
+          "buildString": "r351h14c3975_0",
+          "name": "bioconductor-biostrings",
+          "distName": "bioconductor-biostrings-2.50.2-r351h14c3975_0",
+          "buildNumber": 0,
+          "version": "2.50.2"
+        },
+        {
+          "buildString": "r351h14c3975_0",
+          "name": "bioconductor-biovizbase",
+          "distName": "bioconductor-biovizbase-1.30.1-r351h14c3975_0",
+          "buildNumber": 0,
+          "version": "1.30.1"
+        },
+        {
+          "buildString": "r351_0",
+          "name": "bioconductor-bsgenome",
+          "distName": "bioconductor-bsgenome-1.50.0-r351_0",
+          "buildNumber": 0,
+          "version": "1.50.0"
+        },
+        {
+          "buildString": "r351_5",
+          "name": "bioconductor-bsgenome.hsapiens.ucsc.hg19",
+          "distName": "bioconductor-bsgenome.hsapiens.ucsc.hg19-1.4.0-r351_5",
+          "buildNumber": 5,
+          "version": "1.4.0"
+        },
+        {
+          "buildString": "r351_5",
+          "name": "bioconductor-bsgenome.hsapiens.ucsc.hg38",
+          "distName": "bioconductor-bsgenome.hsapiens.ucsc.hg38-1.4.1-r351_5",
+          "buildNumber": 5,
+          "version": "1.4.1"
+        },
+        {
+          "buildString": "r351_0",
+          "name": "bioconductor-category",
+          "distName": "bioconductor-category-2.48.0-r351_0",
+          "buildNumber": 0,
+          "version": "2.48.0"
+        },
+        {
+          "buildString": "r351_0",
+          "name": "bioconductor-complexheatmap",
+          "distName": "bioconductor-complexheatmap-1.20.0-r351_0",
+          "buildNumber": 0,
+          "version": "1.20.0"
+        },
+        {
+          "buildString": "r351_0",
+          "name": "bioconductor-consensusclusterplus",
+          "distName": "bioconductor-consensusclusterplus-1.46.0-r351_0",
+          "buildNumber": 0,
+          "version": "1.46.0"
+        },
+        {
+          "buildString": "r351h14c3975_0",
+          "name": "bioconductor-delayedarray",
+          "distName": "bioconductor-delayedarray-0.8.0-r351h14c3975_0",
+          "buildNumber": 0,
+          "version": "0.8.0"
+        },
+        {
+          "buildString": "r351_1",
+          "name": "bioconductor-delayedmatrixstats",
+          "distName": "bioconductor-delayedmatrixstats-1.4.0-r351_1",
+          "buildNumber": 1,
+          "version": "1.4.0"
+        },
+        {
+          "buildString": "r351h14c3975_0",
+          "name": "bioconductor-deseq",
+          "distName": "bioconductor-deseq-1.34.1-r351h14c3975_0",
+          "buildNumber": 0,
+          "version": "1.34.1"
+        },
+        {
+          "buildString": "r351hf484d3e_0",
+          "name": "bioconductor-deseq2",
+          "distName": "bioconductor-deseq2-1.22.1-r351hf484d3e_0",
+          "buildNumber": 0,
+          "version": "1.22.1"
+        },
+        {
+          "buildString": "r351hf484d3e_1",
+          "name": "bioconductor-diffbind",
+          "distName": "bioconductor-diffbind-2.10.0-r351hf484d3e_1",
+          "buildNumber": 1,
+          "version": "2.10.0"
+        },
+        {
+          "buildString": "r351hf484d3e_0",
+          "name": "bioconductor-dropletutils",
+          "distName": "bioconductor-dropletutils-1.2.1-r351hf484d3e_0",
+          "buildNumber": 0,
+          "version": "1.2.1"
+        },
+        {
+          "buildString": "r351_0",
+          "name": "bioconductor-edaseq",
+          "distName": "bioconductor-edaseq-2.16.0-r351_0",
+          "buildNumber": 0,
+          "version": "2.16.0"
+        },
+        {
+          "buildString": "r351hf484d3e_0",
+          "name": "bioconductor-edger",
+          "distName": "bioconductor-edger-3.24.3-r351hf484d3e_0",
+          "buildNumber": 0,
+          "version": "3.24.3"
+        },
+        {
+          "buildString": "r351_0",
+          "name": "bioconductor-ensembldb",
+          "distName": "bioconductor-ensembldb-2.6.3-r351_0",
+          "buildNumber": 0,
+          "version": "2.6.3"
+        },
+        {
+          "buildString": "r351hf484d3e_0",
+          "name": "bioconductor-fgsea",
+          "distName": "bioconductor-fgsea-1.8.0-r351hf484d3e_0",
+          "buildNumber": 0,
+          "version": "1.8.0"
+        },
+        {
+          "buildString": "r351h1c2f66e_1",
+          "name": "bioconductor-genefilter",
+          "distName": "bioconductor-genefilter-1.64.0-r351h1c2f66e_1",
+          "buildNumber": 1,
+          "version": "1.64.0"
+        },
+        {
+          "buildString": "r351_0",
+          "name": "bioconductor-geneplotter",
+          "distName": "bioconductor-geneplotter-1.60.0-r351_0",
+          "buildNumber": 0,
+          "version": "1.60.0"
+        },
+        {
+          "buildString": "r351_0",
+          "name": "bioconductor-genomeinfodb",
+          "distName": "bioconductor-genomeinfodb-1.18.1-r351_0",
+          "buildNumber": 0,
+          "version": "1.18.1"
+        },
+        {
+          "buildString": "r351_0",
+          "name": "bioconductor-genomeinfodbdata",
+          "distName": "bioconductor-genomeinfodbdata-1.2.1-r351_0",
+          "buildNumber": 0,
+          "version": "1.2.1"
+        },
+        {
+          "buildString": "r351h14c3975_0",
+          "name": "bioconductor-genomicalignments",
+          "distName": "bioconductor-genomicalignments-1.18.1-r351h14c3975_0",
+          "buildNumber": 0,
+          "version": "1.18.1"
+        },
+        {
+          "buildString": "r351_0",
+          "name": "bioconductor-genomicfeatures",
+          "distName": "bioconductor-genomicfeatures-1.34.1-r351_0",
+          "buildNumber": 0,
+          "version": "1.34.1"
+        },
+        {
+          "buildString": "r351h14c3975_0",
+          "name": "bioconductor-genomicranges",
+          "distName": "bioconductor-genomicranges-1.34.0-r351h14c3975_0",
+          "buildNumber": 0,
+          "version": "1.34.0"
+        },
+        {
+          "buildString": "r351_0",
+          "name": "bioconductor-ggtree",
+          "distName": "bioconductor-ggtree-1.16.0-r351_0",
+          "buildNumber": 0,
+          "version": "1.16.0"
+        },
+        {
+          "buildString": "r351_0",
+          "name": "bioconductor-go.db",
+          "distName": "bioconductor-go.db-3.7.0-r351_0",
+          "buildNumber": 0,
+          "version": "3.7.0"
+        },
+        {
+          "buildString": "r351_0",
+          "name": "bioconductor-gostats",
+          "distName": "bioconductor-gostats-2.48.0-r351_0",
+          "buildNumber": 0,
+          "version": "2.48.0"
+        },
+        {
+          "buildString": "r351h14c3975_0",
+          "name": "bioconductor-graph",
+          "distName": "bioconductor-graph-1.60.0-r351h14c3975_0",
+          "buildNumber": 0,
+          "version": "1.60.0"
+        },
+        {
+          "buildString": "r351_0",
+          "name": "bioconductor-gseabase",
+          "distName": "bioconductor-gseabase-1.44.0-r351_0",
+          "buildNumber": 0,
+          "version": "1.44.0"
+        },
+        {
+          "buildString": "r351h14c3975_1",
+          "name": "bioconductor-gsva",
+          "distName": "bioconductor-gsva-1.30.0-r351h14c3975_1",
+          "buildNumber": 1,
+          "version": "1.30.0"
+        },
+        {
+          "buildString": "r351_0",
+          "name": "bioconductor-gviz",
+          "distName": "bioconductor-gviz-1.26.4-r351_0",
+          "buildNumber": 0,
+          "version": "1.26.4"
+        },
+        {
+          "buildString": "r351_0",
+          "name": "bioconductor-hdf5array",
+          "distName": "bioconductor-hdf5array-1.10.1-r351_0",
+          "buildNumber": 0,
+          "version": "1.10.1"
+        },
+        {
+          "buildString": "r351_0",
+          "name": "bioconductor-hsmmsinglecell",
+          "distName": "bioconductor-hsmmsinglecell-1.2.0-r351_0",
+          "buildNumber": 0,
+          "version": "1.2.0"
+        },
+        {
+          "buildString": "r351h9ac9557_0",
+          "name": "bioconductor-impute",
+          "distName": "bioconductor-impute-1.58.0-r351h9ac9557_0",
+          "buildNumber": 0,
+          "version": "1.58.0"
+        },
+        {
+          "buildString": "r351hf484d3e_0",
+          "name": "bioconductor-interactionset",
+          "distName": "bioconductor-interactionset-1.10.0-r351hf484d3e_0",
+          "buildNumber": 0,
+          "version": "1.10.0"
+        },
+        {
+          "buildString": "r351h14c3975_0",
+          "name": "bioconductor-iranges",
+          "distName": "bioconductor-iranges-2.16.0-r351h14c3975_0",
+          "buildNumber": 0,
+          "version": "2.16.0"
+        },
+        {
+          "buildString": "r351_1",
+          "name": "bioconductor-ivygapse",
+          "distName": "bioconductor-ivygapse-1.4.0-r351_1",
+          "buildNumber": 1,
+          "version": "1.4.0"
+        },
+        {
+          "buildString": "r351h14c3975_0",
+          "name": "bioconductor-limma",
+          "distName": "bioconductor-limma-3.38.3-r351h14c3975_0",
+          "buildNumber": 0,
+          "version": "3.38.3"
+        },
+        {
+          "buildString": "r35_0",
+          "name": "bioconductor-maftools",
+          "distName": "bioconductor-maftools-2.4.12-r35_0",
+          "buildNumber": 0,
+          "version": "2.4.12"
+        },
+        {
+          "buildString": "r351_0",
+          "name": "bioconductor-mast",
+          "distName": "bioconductor-mast-1.8.1-r351_0",
+          "buildNumber": 0,
+          "version": "1.8.1"
+        },
+        {
+          "buildString": "r351hf484d3e_0",
+          "name": "bioconductor-monocle",
+          "distName": "bioconductor-monocle-2.10.0-r351hf484d3e_0",
+          "buildNumber": 0,
+          "version": "2.10.0"
+        },
+        {
+          "buildString": "r351hf484d3e_0",
+          "name": "bioconductor-msa",
+          "distName": "bioconductor-msa-1.14.0-r351hf484d3e_0",
+          "buildNumber": 0,
+          "version": "1.14.0"
+        },
+        {
+          "buildString": "r351h14c3975_0",
+          "name": "bioconductor-multtest",
+          "distName": "bioconductor-multtest-2.38.0-r351h14c3975_0",
+          "buildNumber": 0,
+          "version": "2.38.0"
+        },
+        {
+          "buildString": "r351_0",
+          "name": "bioconductor-mutationalpatterns",
+          "distName": "bioconductor-mutationalpatterns-1.8.0-r351_0",
+          "buildNumber": 0,
+          "version": "1.8.0"
+        },
+        {
+          "buildString": "r351_0",
+          "name": "bioconductor-netbiov",
+          "distName": "bioconductor-netbiov-1.18.0-r351_0",
+          "buildNumber": 0,
+          "version": "1.18.0"
+        },
+        {
+          "buildString": "r351_0",
+          "name": "bioconductor-omiccircos",
+          "distName": "bioconductor-omiccircos-1.20.0-r351_0",
+          "buildNumber": 0,
+          "version": "1.20.0"
+        },
+        {
+          "buildString": "r351_0",
+          "name": "bioconductor-org.hs.eg.db",
+          "distName": "bioconductor-org.hs.eg.db-3.7.0-r351_0",
+          "buildNumber": 0,
+          "version": "3.7.0"
+        },
+        {
+          "buildString": "r351_0",
+          "name": "bioconductor-org.mm.eg.db",
+          "distName": "bioconductor-org.mm.eg.db-3.7.0-r351_0",
+          "buildNumber": 0,
+          "version": "3.7.0"
+        },
+        {
+          "buildString": "r351_0",
+          "name": "bioconductor-phyloseq",
+          "distName": "bioconductor-phyloseq-1.26.1-r351_0",
+          "buildNumber": 0,
+          "version": "1.26.1"
+        },
+        {
+          "buildString": "r351h14c3975_0",
+          "name": "bioconductor-preprocesscore",
+          "distName": "bioconductor-preprocesscore-1.46.0-r351h14c3975_0",
+          "buildNumber": 0,
+          "version": "1.46.0"
+        },
+        {
+          "buildString": "r351_0",
+          "name": "bioconductor-protgenerics",
+          "distName": "bioconductor-protgenerics-1.14.0-r351_0",
+          "buildNumber": 0,
+          "version": "1.14.0"
+        },
+        {
+          "buildString": "r351hf484d3e_0",
+          "name": "bioconductor-rbgl",
+          "distName": "bioconductor-rbgl-1.58.2-r351hf484d3e_0",
+          "buildNumber": 0,
+          "version": "1.58.2"
+        },
+        {
+          "buildString": "r351hf484d3e_0",
+          "name": "bioconductor-rgraphviz",
+          "distName": "bioconductor-rgraphviz-2.26.0-r351hf484d3e_0",
+          "buildNumber": 0,
+          "version": "2.26.0"
+        },
+        {
+          "buildString": "r351hdbcaa40_2",
+          "name": "bioconductor-rhdf5",
+          "distName": "bioconductor-rhdf5-2.26.2-r351hdbcaa40_2",
+          "buildNumber": 2,
+          "version": "2.26.2"
+        },
+        {
+          "buildString": "r351h1feb10b_0",
+          "name": "bioconductor-rhdf5lib",
+          "distName": "bioconductor-rhdf5lib-1.4.3-r351h1feb10b_0",
+          "buildNumber": 0,
+          "version": "1.4.3"
+        },
+        {
+          "buildString": "r351hf484d3e_0",
+          "name": "bioconductor-rsamtools",
+          "distName": "bioconductor-rsamtools-1.34.0-r351hf484d3e_0",
+          "buildNumber": 0,
+          "version": "1.34.0"
+        },
+        {
+          "buildString": "r351h9d9f1b6_1",
+          "name": "bioconductor-rtracklayer",
+          "distName": "bioconductor-rtracklayer-1.42.1-r351h9d9f1b6_1",
+          "buildNumber": 1,
+          "version": "1.42.1"
+        },
+        {
+          "buildString": "r351h14c3975_0",
+          "name": "bioconductor-s4vectors",
+          "distName": "bioconductor-s4vectors-0.20.1-r351h14c3975_0",
+          "buildNumber": 0,
+          "version": "0.20.1"
+        },
+        {
+          "buildString": "r351hf484d3e_0",
+          "name": "bioconductor-scater",
+          "distName": "bioconductor-scater-1.10.1-r351hf484d3e_0",
+          "buildNumber": 0,
+          "version": "1.10.1"
+        },
+        {
+          "buildString": "r351hf484d3e_0",
+          "name": "bioconductor-scran",
+          "distName": "bioconductor-scran-1.10.1-r351hf484d3e_0",
+          "buildNumber": 0,
+          "version": "1.10.1"
+        },
+        {
+          "buildString": "r351hf484d3e_0",
+          "name": "bioconductor-shortread",
+          "distName": "bioconductor-shortread-1.40.0-r351hf484d3e_0",
+          "buildNumber": 0,
+          "version": "1.40.0"
+        },
+        {
+          "buildString": "r351_0",
+          "name": "bioconductor-singlecellexperiment",
+          "distName": "bioconductor-singlecellexperiment-1.4.0-r351_0",
+          "buildNumber": 0,
+          "version": "1.4.0"
+        },
+        {
+          "buildString": "r351_0",
+          "name": "bioconductor-singscore",
+          "distName": "bioconductor-singscore-1.2.2-r351_0",
+          "buildNumber": 0,
+          "version": "1.2.2"
+        },
+        {
+          "buildString": "r351_0",
+          "name": "bioconductor-summarizedexperiment",
+          "distName": "bioconductor-summarizedexperiment-1.12.0-r351_0",
+          "buildNumber": 0,
+          "version": "1.12.0"
+        },
+        {
+          "buildString": "r351h14c3975_0",
+          "name": "bioconductor-sva",
+          "distName": "bioconductor-sva-3.30.1-r351h14c3975_0",
+          "buildNumber": 0,
+          "version": "3.30.1"
+        },
+        {
+          "buildString": "r351_0",
+          "name": "bioconductor-synergyfinder",
+          "distName": "bioconductor-synergyfinder-1.10.0-r351_0",
+          "buildNumber": 0,
+          "version": "1.10.0"
+        },
+        {
+          "buildString": "r351_0",
+          "name": "bioconductor-systempiper",
+          "distName": "bioconductor-systempiper-1.16.0-r351_0",
+          "buildNumber": 0,
+          "version": "1.16.0"
+        },
+        {
+          "buildString": "r351_0",
+          "name": "bioconductor-tcgabiolinks",
+          "distName": "bioconductor-tcgabiolinks-2.14.0-r351_0",
+          "buildNumber": 0,
+          "version": "2.14.0"
+        },
+        {
+          "buildString": "r351_1",
+          "name": "bioconductor-trackviewer",
+          "distName": "bioconductor-trackviewer-1.18.0-r351_1",
+          "buildNumber": 1,
+          "version": "1.18.0"
+        },
+        {
+          "buildString": "r351_0",
+          "name": "bioconductor-treeio",
+          "distName": "bioconductor-treeio-1.8.0-r351_0",
+          "buildNumber": 0,
+          "version": "1.8.0"
+        },
+        {
+          "buildString": "r351_0",
+          "name": "bioconductor-variancepartition",
+          "distName": "bioconductor-variancepartition-1.12.3-r351_0",
+          "buildNumber": 0,
+          "version": "1.12.3"
+        },
+        {
+          "buildString": "r351h14c3975_0",
+          "name": "bioconductor-variantannotation",
+          "distName": "bioconductor-variantannotation-1.28.3-r351h14c3975_0",
+          "buildNumber": 0,
+          "version": "1.28.3"
+        },
+        {
+          "buildString": "r351h14c3975_0",
+          "name": "bioconductor-xvector",
+          "distName": "bioconductor-xvector-0.22.0-r351h14c3975_0",
+          "buildNumber": 0,
+          "version": "0.22.0"
+        },
+        {
+          "buildString": "r351h14c3975_0",
+          "name": "bioconductor-zlibbioc",
+          "distName": "bioconductor-zlibbioc-1.28.0-r351h14c3975_0",
+          "buildNumber": 0,
+          "version": "1.28.0"
+        },
+        {
+          "buildString": "py36h9f0ad1d_0",
+          "name": "bokeh",
+          "distName": "bokeh-2.2.1-py36h9f0ad1d_0",
+          "buildNumber": 0,
+          "version": "2.2.1"
+        },
+        {
+          "buildString": "py36h8619c78_1001",
+          "name": "boost",
+          "distName": "boost-1.68.0-py36h8619c78_1001",
+          "buildNumber": 1001,
+          "version": "1.68.0"
+        },
+        {
+          "buildString": "h11c811c_1000",
+          "name": "boost-cpp",
+          "distName": "boost-cpp-1.68.0-h11c811c_1000",
+          "buildNumber": 1000,
+          "version": "1.68.0"
+        },
+        {
+          "buildString": "he1b5a44_2",
+          "name": "brotli",
+          "distName": "brotli-1.0.9-he1b5a44_2",
+          "buildNumber": 2,
+          "version": "1.0.9"
+        },
+        {
+          "buildString": "py36h14c3975_1000",
+          "name": "brotlipy",
+          "distName": "brotlipy-0.7.0-py36h14c3975_1000",
+          "buildNumber": 1000,
+          "version": "0.7.0"
+        },
+        {
+          "buildString": "0",
+          "name": "bwidget",
+          "distName": "bwidget-1.9.14-0",
+          "buildNumber": 0,
+          "version": "1.9.14"
+        },
+        {
+          "buildString": "1",
+          "name": "bzip2",
+          "distName": "bzip2-1.0.6-1",
+          "buildNumber": 1,
+          "version": "1.0.6"
+        },
+        {
+          "buildString": "0",
+          "name": "ca-certificates",
+          "distName": "ca-certificates-2020.7.22-0",
+          "buildNumber": 0,
+          "version": "2020.7.22"
+        },
+        {
+          "buildString": "h8948797_3",
+          "name": "cairo",
+          "distName": "cairo-1.14.12-h8948797_3",
+          "buildNumber": 3,
+          "version": "1.14.12"
+        },
+        {
+          "buildString": "py36h9880bd3_2",
+          "name": "certifi",
+          "distName": "certifi-2020.6.20-py36h9880bd3_2",
+          "buildNumber": 2,
+          "version": "2020.6.20"
+        },
+        {
+          "buildString": "py36h0ff685e_0",
+          "name": "cffi",
+          "distName": "cffi-1.14.3-py36h0ff685e_0",
+          "buildNumber": 0,
+          "version": "1.14.3"
+        },
+        {
+          "buildString": "py36h9880bd3_1008",
+          "name": "chardet",
+          "distName": "chardet-3.0.4-py36h9880bd3_1008",
+          "buildNumber": 1008,
+          "version": "3.0.4"
+        },
+        {
+          "buildString": "py_0",
+          "name": "click",
+          "distName": "click-7.1.2-py_0",
+          "buildNumber": 0,
+          "version": "7.1.2"
+        },
+        {
+          "buildString": "py_0",
+          "name": "cloudpickle",
+          "distName": "cloudpickle-1.6.0-py_0",
+          "buildNumber": 0,
+          "version": "1.6.0"
+        },
+        {
+          "buildString": "py_2",
+          "name": "colormath",
+          "distName": "colormath-3.0.0-py_2",
+          "buildNumber": 2,
+          "version": "3.0.0"
+        },
+        {
+          "buildString": "py36h9f0ad1d_2",
+          "name": "conjure-python-client",
+          "distName": "conjure-python-client-1.10.0-py36h9f0ad1d_2",
+          "buildNumber": 2,
+          "version": "1.10.0"
+        },
+        {
+          "buildString": "py_0",
+          "name": "contextvars",
+          "distName": "contextvars-2.4-py_0",
+          "buildNumber": 0,
+          "version": "2.4"
+        },
+        {
+          "buildString": "py36h1ba5d50_0",
+          "name": "cryptography",
+          "distName": "cryptography-3.1.1-py36h1ba5d50_0",
+          "buildNumber": 0,
+          "version": "3.1.1"
+        },
+        {
+          "buildString": "hf8cf82a_0",
+          "name": "curl",
+          "distName": "curl-7.68.0-hf8cf82a_0",
+          "buildNumber": 0,
+          "version": "7.68.0"
+        },
+        {
+          "buildString": "py_2",
+          "name": "cycler",
+          "distName": "cycler-0.10.0-py_2",
+          "buildNumber": 2,
+          "version": "0.10.0"
+        },
+        {
+          "buildString": "py36h7b6447c_0",
+          "name": "cytoolz",
+          "distName": "cytoolz-0.11.0-py36h7b6447c_0",
+          "buildNumber": 0,
+          "version": "0.11.0"
+        },
+        {
+          "buildString": "py_0",
+          "name": "dask",
+          "distName": "dask-2.30.0-py_0",
+          "buildNumber": 0,
+          "version": "2.30.0"
+        },
+        {
+          "buildString": "py_0",
+          "name": "dask-core",
+          "distName": "dask-core-2.30.0-py_0",
+          "buildNumber": 0,
+          "version": "2.30.0"
+        },
+        {
+          "buildString": "h746ee38_0",
+          "name": "dbus",
+          "distName": "dbus-1.13.12-h746ee38_0",
+          "buildNumber": 0,
+          "version": "1.13.12"
+        },
+        {
+          "buildString": "py_0",
+          "name": "decorator",
+          "distName": "decorator-4.4.2-py_0",
+          "buildNumber": 0,
+          "version": "4.4.2"
+        },
+        {
+          "buildString": "py_0",
+          "name": "deeptools",
+          "distName": "deeptools-3.5.0-py_0",
+          "buildNumber": 0,
+          "version": "3.5.0"
+        },
+        {
+          "buildString": "py36h4c5857e_2",
+          "name": "deeptoolsintervals",
+          "distName": "deeptoolsintervals-0.1.9-py36h4c5857e_2",
+          "buildNumber": 2,
+          "version": "0.1.9"
+        },
+        {
+          "buildString": "py_0",
+          "name": "dill",
+          "distName": "dill-0.3.2-py_0",
+          "buildNumber": 0,
+          "version": "0.3.2"
+        },
+        {
+          "buildString": "py36_0",
+          "name": "distributed",
+          "distName": "distributed-2.30.0-py36_0",
+          "buildNumber": 0,
+          "version": "2.30.0"
+        },
+        {
+          "buildString": "he1b5a44_2",
+          "name": "double-conversion",
+          "distName": "double-conversion-3.1.5-he1b5a44_2",
+          "buildNumber": 2,
+          "version": "3.1.5"
+        },
+        {
+          "buildString": "py36h831f99a_1",
+          "name": "editdistance",
+          "distName": "editdistance-0.5.3-py36h831f99a_1",
+          "buildNumber": 1,
+          "version": "0.5.3"
+        },
+        {
+          "buildString": "he1b5a44_2",
+          "name": "expat",
+          "distName": "expat-2.2.9-he1b5a44_2",
+          "buildNumber": 2,
+          "version": "2.2.9"
+        },
+        {
+          "buildString": "0",
+          "name": "font-ttf-dejavu-sans-mono",
+          "distName": "font-ttf-dejavu-sans-mono-2.37-0",
+          "buildNumber": 0,
+          "version": "2.37"
+        },
+        {
+          "buildString": "h2176d3f_1000",
+          "name": "fontconfig",
+          "distName": "fontconfig-2.13.1-h2176d3f_1000",
+          "buildNumber": 1000,
+          "version": "2.13.1"
+        },
+        {
+          "buildString": "py_0",
+          "name": "foundry-python-objects",
+          "distName": "foundry-python-objects-0.18.5-py_0",
+          "buildNumber": 0,
+          "version": "0.18.5"
+        },
+        {
+          "buildString": "r35_0",
+          "name": "foundry-spark-r",
+          "distName": "foundry-spark-r-5.22.0-r35_0",
+          "buildNumber": 0,
+          "version": "5.22.0"
+        },
+        {
+          "buildString": "h5ab3b9f_0",
+          "name": "freetype",
+          "distName": "freetype-2.10.2-h5ab3b9f_0",
+          "buildNumber": 0,
+          "version": "2.10.2"
+        },
+        {
+          "buildString": "r3_0",
+          "name": "frobjects",
+          "distName": "frobjects-0.3.1+1.4e3e701895-r3_0",
+          "buildNumber": 2,
+          "version": "0.3.1+1.4e3e701895"
+        },
+        {
+          "buildString": "py_0",
+          "name": "fsspec",
+          "distName": "fsspec-0.8.3-py_0",
+          "buildNumber": 0,
+          "version": "0.8.3"
+        },
+        {
+          "buildString": "py36_1",
+          "name": "future",
+          "distName": "future-0.18.2-py36_1",
+          "buildNumber": 1,
+          "version": "0.18.2"
+        },
+        {
+          "buildString": "h28f5a38_17",
+          "name": "gcc_impl_linux-64",
+          "distName": "gcc_impl_linux-64-9.3.0-h28f5a38_17",
+          "buildNumber": 17,
+          "version": "9.3.0"
+        },
+        {
+          "buildString": "h7247604_29",
+          "name": "gcc_linux-64",
+          "distName": "gcc_linux-64-9.3.0-h7247604_29",
+          "buildNumber": 29,
+          "version": "9.3.0"
+        },
+        {
+          "buildString": "1",
+          "name": "gettext",
+          "distName": "gettext-0.19.7-1",
+          "buildNumber": 1,
+          "version": "0.19.7"
+        },
+        {
+          "buildString": "he1b5a44_1004",
+          "name": "gflags",
+          "distName": "gflags-2.2.2-he1b5a44_1004",
+          "buildNumber": 1004,
+          "version": "2.2.2"
+        },
+        {
+          "buildString": "24",
+          "name": "gfortran_linux-64",
+          "distName": "gfortran_linux-64-7.2.0-24",
+          "buildNumber": 24,
+          "version": "7.2.0"
+        },
+        {
+          "buildString": "hd408876_0",
+          "name": "glib",
+          "distName": "glib-2.56.2-hd408876_0",
+          "buildNumber": 0,
+          "version": "2.56.2"
+        },
+        {
+          "buildString": "h49b9bf7_3",
+          "name": "glog",
+          "distName": "glog-0.4.0-h49b9bf7_3",
+          "buildNumber": 3,
+          "version": "0.4.0"
+        },
+        {
+          "buildString": "he1b5a44_3",
+          "name": "gmp",
+          "distName": "gmp-6.2.0-he1b5a44_3",
+          "buildNumber": 3,
+          "version": "6.2.0"
+        },
+        {
+          "buildString": "h23475e2_0",
+          "name": "graphite2",
+          "distName": "graphite2-1.3.14-h23475e2_0",
+          "buildNumber": 0,
+          "version": "1.3.14"
+        },
+        {
+          "buildString": "h294904e_0",
+          "name": "gsl",
+          "distName": "gsl-2.6-h294904e_0",
+          "buildNumber": 0,
+          "version": "2.6"
+        },
+        {
+          "buildString": "hbbd80ab_1",
+          "name": "gst-plugins-base",
+          "distName": "gst-plugins-base-1.14.0-hbbd80ab_1",
+          "buildNumber": 1,
+          "version": "1.14.0"
+        },
+        {
+          "buildString": "hb453b48_1",
+          "name": "gstreamer",
+          "distName": "gstreamer-1.14.0-hb453b48_1",
+          "buildNumber": 1,
+          "version": "1.14.0"
+        },
+        {
+          "buildString": "h53cdd4c_17",
+          "name": "gxx_impl_linux-64",
+          "distName": "gxx_impl_linux-64-9.3.0-h53cdd4c_17",
+          "buildNumber": 17,
+          "version": "9.3.0"
+        },
+        {
+          "buildString": "h0d07fa4_29",
+          "name": "gxx_linux-64",
+          "distName": "gxx_linux-64-9.3.0-h0d07fa4_29",
+          "buildNumber": 29,
+          "version": "9.3.0"
+        },
+        {
+          "buildString": "he243708_1001",
+          "name": "harfbuzz",
+          "distName": "harfbuzz-1.9.0-he243708_1001",
+          "buildNumber": 1001,
+          "version": "1.9.0"
+        },
+        {
+          "buildString": "nompi_h3c11f04_1104",
+          "name": "hdf5",
+          "distName": "hdf5-1.10.5-nompi_h3c11f04_1104",
+          "buildNumber": 1104,
+          "version": "1.10.5"
+        },
+        {
+          "buildString": "py_0",
+          "name": "heapdict",
+          "distName": "heapdict-1.0.1-py_0",
+          "buildNumber": 0,
+          "version": "1.0.1"
+        },
+        {
+          "buildString": "ha228f0b_7",
+          "name": "htslib",
+          "distName": "htslib-1.9-ha228f0b_7",
+          "buildNumber": 7,
+          "version": "1.9"
+        },
+        {
+          "buildString": "hf484d3e_1000",
+          "name": "icu",
+          "distName": "icu-58.2-hf484d3e_1000",
+          "buildNumber": 1000,
+          "version": "58.2"
+        },
+        {
+          "buildString": "py_0",
+          "name": "idna",
+          "distName": "idna-2.10-py_0",
+          "buildNumber": 0,
+          "version": "2.10"
+        },
+        {
+          "buildString": "h2166141_1005",
+          "name": "igraph",
+          "distName": "igraph-0.7.1-h2166141_1005",
+          "buildNumber": 1005,
+          "version": "0.7.1"
+        },
+        {
+          "buildString": "py36h7b6447c_0",
+          "name": "immutables",
+          "distName": "immutables-0.14-py36h7b6447c_0",
+          "buildNumber": 0,
+          "version": "0.14"
+        },
+        {
+          "buildString": "h516909a_0",
+          "name": "inchi",
+          "distName": "inchi-1.05-h516909a_0",
+          "buildNumber": 0,
+          "version": "1.05"
+        },
+        {
+          "buildString": "py_0",
+          "name": "jinja2",
+          "distName": "jinja2-2.11.2-py_0",
+          "buildNumber": 0,
+          "version": "2.11.2"
+        },
+        {
+          "buildString": "py_0",
+          "name": "joblib",
+          "distName": "joblib-0.17.0-py_0",
+          "buildNumber": 0,
+          "version": "0.17.0"
+        },
+        {
+          "buildString": "h516909a_0",
+          "name": "jpeg",
+          "distName": "jpeg-9d-h516909a_0",
+          "buildNumber": 0,
+          "version": "9d"
+        },
+        {
+          "buildString": "py36hdb11119_0",
+          "name": "kiwisolver",
+          "distName": "kiwisolver-1.2.0-py36hdb11119_0",
+          "buildNumber": 0,
+          "version": "1.2.0"
+        },
+        {
+          "buildString": "h173b8e3_0",
+          "name": "krb5",
+          "distName": "krb5-1.16.4-h173b8e3_0",
+          "buildNumber": 0,
+          "version": "1.16.4"
+        },
+        {
+          "buildString": "h396b838_0",
+          "name": "lcms2",
+          "distName": "lcms2-2.11-h396b838_0",
+          "buildNumber": 0,
+          "version": "2.11"
+        },
+        {
+          "buildString": "h769bd43_9",
+          "name": "ld_impl_linux-64",
+          "distName": "ld_impl_linux-64-2.35-h769bd43_9",
+          "buildNumber": 9,
+          "version": "2.35"
+        },
+        {
+          "buildString": "16_mkl",
+          "name": "libblas",
+          "distName": "libblas-3.8.0-16_mkl",
+          "buildNumber": 16,
+          "version": "3.8.0"
+        },
+        {
+          "buildString": "h46d08c1_4",
+          "name": "libboost",
+          "distName": "libboost-1.67.0-h46d08c1_4",
+          "buildNumber": 4,
+          "version": "1.67.0"
+        },
+        {
+          "buildString": "16_mkl",
+          "name": "libcblas",
+          "distName": "libcblas-3.8.0-16_mkl",
+          "buildNumber": 16,
+          "version": "3.8.0"
+        },
+        {
+          "buildString": "hda55be3_0",
+          "name": "libcurl",
+          "distName": "libcurl-7.68.0-hda55be3_0",
+          "buildNumber": 0,
+          "version": "7.68.0"
+        },
+        {
+          "buildString": "h14c3975_1",
+          "name": "libdeflate",
+          "distName": "libdeflate-1.0-h14c3975_1",
+          "buildNumber": 1,
+          "version": "1.0"
+        },
+        {
+          "buildString": "h46ee950_2",
+          "name": "libedit",
+          "distName": "libedit-3.1.20191231-h46ee950_2",
+          "buildNumber": 2,
+          "version": "3.1.20191231"
+        },
+        {
+          "buildString": "hcdb4288_2",
+          "name": "libevent",
+          "distName": "libevent-2.1.10-hcdb4288_2",
+          "buildNumber": 2,
+          "version": "2.1.10"
+        },
+        {
+          "buildString": "he1b5a44_1007",
+          "name": "libffi",
+          "distName": "libffi-3.2.1-he1b5a44_1007",
+          "buildNumber": 1007,
+          "version": "3.2.1"
+        },
+        {
+          "buildString": "h69d50b8_2",
+          "name": "libgcc",
+          "distName": "libgcc-7.2.0-h69d50b8_2",
+          "buildNumber": 2,
+          "version": "7.2.0"
+        },
+        {
+          "buildString": "hfd08b2a_17",
+          "name": "libgcc-devel_linux-64",
+          "distName": "libgcc-devel_linux-64-9.3.0-hfd08b2a_17",
+          "buildNumber": 17,
+          "version": "9.3.0"
+        },
+        {
+          "buildString": "h5dbcf3e_17",
+          "name": "libgcc-ng",
+          "distName": "libgcc-ng-9.3.0-h5dbcf3e_17",
+          "buildNumber": 17,
+          "version": "9.3.0"
+        },
+        {
+          "buildString": "hae1eefd_17",
+          "name": "libgfortran-ng",
+          "distName": "libgfortran-ng-7.5.0-hae1eefd_17",
+          "buildNumber": 17,
+          "version": "7.5.0"
+        },
+        {
+          "buildString": "hae1eefd_17",
+          "name": "libgfortran4",
+          "distName": "libgfortran4-7.5.0-hae1eefd_17",
+          "buildNumber": 17,
+          "version": "7.5.0"
+        },
+        {
+          "buildString": "he1b5a44_1001",
+          "name": "libglu",
+          "distName": "libglu-9.0.0-he1b5a44_1001",
+          "buildNumber": 1001,
+          "version": "9.0.0"
+        },
+        {
+          "buildString": "h5dbcf3e_17",
+          "name": "libgomp",
+          "distName": "libgomp-9.3.0-h5dbcf3e_17",
+          "buildNumber": 17,
+          "version": "9.3.0"
+        },
+        {
+          "buildString": "h516909a_1006",
+          "name": "libiconv",
+          "distName": "libiconv-1.15-h516909a_1006",
+          "buildNumber": 1006,
+          "version": "1.15"
+        },
+        {
+          "buildString": "16_mkl",
+          "name": "liblapack",
+          "distName": "liblapack-3.8.0-16_mkl",
+          "buildNumber": 16,
+          "version": "3.8.0"
+        },
+        {
+          "buildString": "h4a3c616_1",
+          "name": "libllvm9",
+          "distName": "libllvm9-9.0.1-h4a3c616_1",
+          "buildNumber": 1,
+          "version": "9.0.1"
+        },
+        {
+          "buildString": "pthreads_hb3c22a3_4",
+          "name": "libopenblas",
+          "distName": "libopenblas-0.3.10-pthreads_hb3c22a3_4",
+          "buildNumber": 4,
+          "version": "0.3.10"
+        },
+        {
+          "buildString": "hed695b0_2",
+          "name": "libpng",
+          "distName": "libpng-1.6.37-hed695b0_2",
+          "buildNumber": 2,
+          "version": "1.6.37"
+        },
+        {
+          "buildString": "hdbcaa40_1000",
+          "name": "libprotobuf",
+          "distName": "libprotobuf-3.6.0-hdbcaa40_1000",
+          "buildNumber": 1000,
+          "version": "3.6.0"
+        },
+        {
+          "buildString": "h22169c7_2",
+          "name": "libssh2",
+          "distName": "libssh2-1.8.2-h22169c7_2",
+          "buildNumber": 2,
+          "version": "1.8.2"
+        },
+        {
+          "buildString": "h4084dd6_17",
+          "name": "libstdcxx-devel_linux-64",
+          "distName": "libstdcxx-devel_linux-64-9.3.0-h4084dd6_17",
+          "buildNumber": 17,
+          "version": "9.3.0"
+        },
+        {
+          "buildString": "h2ae2ef3_17",
+          "name": "libstdcxx-ng",
+          "distName": "libstdcxx-ng-9.3.0-h2ae2ef3_17",
+          "buildNumber": 17,
+          "version": "9.3.0"
+        },
+        {
+          "buildString": "h2733197_0",
+          "name": "libtiff",
+          "distName": "libtiff-4.1.0-h2733197_0",
+          "buildNumber": 0,
+          "version": "4.1.0"
+        },
+        {
+          "buildString": "h14c3975_1000",
+          "name": "libuuid",
+          "distName": "libuuid-2.32.1-h14c3975_1000",
+          "buildNumber": 1000,
+          "version": "2.32.1"
+        },
+        {
+          "buildString": "h7b6447c_0",
+          "name": "libxcb",
+          "distName": "libxcb-1.14-h7b6447c_0",
+          "buildNumber": 0,
+          "version": "1.14"
+        },
+        {
+          "buildString": "he19cac6_1",
+          "name": "libxml2",
+          "distName": "libxml2-2.9.10-he19cac6_1",
+          "buildNumber": 1,
+          "version": "2.9.10"
+        },
+        {
+          "buildString": "hc9558a2_0",
+          "name": "llvm-openmp",
+          "distName": "llvm-openmp-10.0.1-hc9558a2_0",
+          "buildNumber": 0,
+          "version": "10.0.1"
+        },
+        {
+          "buildString": "py36hc6ec683_1",
+          "name": "llvmlite",
+          "distName": "llvmlite-0.33.0-py36hc6ec683_1",
+          "buildNumber": 1,
+          "version": "0.33.0"
+        },
+        {
+          "buildString": "py_2",
+          "name": "locket",
+          "distName": "locket-0.2.0-py_2",
+          "buildNumber": 2,
+          "version": "0.2.0"
+        },
+        {
+          "buildString": "py36h964dcb7_1",
+          "name": "lz4",
+          "distName": "lz4-3.0.2-py36h964dcb7_1",
+          "buildNumber": 1,
+          "version": "3.0.2"
+        },
+        {
+          "buildString": "he1b5a44_1001",
+          "name": "lz4-c",
+          "distName": "lz4-c-1.8.3-he1b5a44_1001",
+          "buildNumber": 1001,
+          "version": "1.8.3"
+        },
+        {
+          "buildString": "h516909a_0",
+          "name": "make",
+          "distName": "make-4.3-h516909a_0",
+          "buildNumber": 0,
+          "version": "4.3"
+        },
+        {
+          "buildString": "py36he6145b8_2",
+          "name": "markupsafe",
+          "distName": "markupsafe-1.1.1-py36he6145b8_2",
+          "buildNumber": 2,
+          "version": "1.1.1"
+        },
+        {
+          "buildString": "py36hb69df0a_0",
+          "name": "matplotlib",
+          "distName": "matplotlib-2.2.3-py36hb69df0a_0",
+          "buildNumber": 0,
+          "version": "2.2.3"
+        },
+        {
+          "buildString": "py36h5ffbc53_0",
+          "name": "matplotlib-base",
+          "distName": "matplotlib-base-3.3.2-py36h5ffbc53_0",
+          "buildNumber": 0,
+          "version": "3.3.2"
+        },
+        {
+          "buildString": "256",
+          "name": "mkl",
+          "distName": "mkl-2020.2-256",
+          "buildNumber": 256,
+          "version": "2020.2"
+        },
+        {
+          "buildString": "py36hdb11119_1",
+          "name": "msgpack-python",
+          "distName": "msgpack-python-1.0.0-py36hdb11119_1",
+          "buildNumber": 1,
+          "version": "1.0.0"
+        },
+        {
+          "buildString": "hf484d3e_1002",
+          "name": "ncurses",
+          "distName": "ncurses-6.1-hf484d3e_1002",
+          "buildNumber": 1002,
+          "version": "6.1"
+        },
+        {
+          "buildString": "py_0",
+          "name": "networkx",
+          "distName": "networkx-2.5-py_0",
+          "buildNumber": 0,
+          "version": "2.5"
+        },
+        {
+          "buildString": "py36h0573a6f_1",
+          "name": "numba",
+          "distName": "numba-0.50.1-py36h0573a6f_1",
+          "buildNumber": 1,
+          "version": "0.50.1"
+        },
+        {
+          "buildString": "py36h3849536_2",
+          "name": "numpy",
+          "distName": "numpy-1.19.1-py36h3849536_2",
+          "buildNumber": 2,
+          "version": "1.19.1"
+        },
+        {
+          "buildString": "py36_0",
+          "name": "olefile",
+          "distName": "olefile-0.46-py36_0",
+          "buildNumber": 0,
+          "version": "0.46"
+        },
+        {
+          "buildString": "h7b6447c_0",
+          "name": "openssl",
+          "distName": "openssl-1.1.1-h7b6447c_0",
+          "buildNumber": 0,
+          "version": "1.1.1"
+        },
+        {
+          "buildString": "py36hdb11119_0",
+          "name": "opentsne",
+          "distName": "opentsne-0.4.4-py36hdb11119_0",
+          "buildNumber": 0,
+          "version": "0.4.4"
+        },
+        {
+          "buildString": "py_0",
+          "name": "packaging",
+          "distName": "packaging-20.4-py_0",
+          "buildNumber": 0,
+          "version": "20.4"
+        },
+        {
+          "buildString": "py_0",
+          "name": "palantir-spark-time",
+          "distName": "palantir-spark-time-2.4.1-py_0",
+          "buildNumber": 0,
+          "version": "2.4.1"
+        },
+        {
+          "buildString": "py36hb3f55d8_0",
+          "name": "pandas",
+          "distName": "pandas-0.25.3-py36hb3f55d8_0",
+          "buildNumber": 0,
+          "version": "0.25.3"
+        },
+        {
+          "buildString": "0",
+          "name": "pandoc",
+          "distName": "pandoc-2.10.1-0",
+          "buildNumber": 0,
+          "version": "2.10.1"
+        },
+        {
+          "buildString": "hf0c64fd_1003",
+          "name": "pango",
+          "distName": "pango-1.40.14-hf0c64fd_1003",
+          "buildNumber": 1003,
+          "version": "1.40.14"
+        },
+        {
+          "buildString": "py_0",
+          "name": "partd",
+          "distName": "partd-1.1.0-py_0",
+          "buildNumber": 0,
+          "version": "1.1.0"
+        },
+        {
+          "buildString": "py36_0",
+          "name": "patsy",
+          "distName": "patsy-0.5.1-py36_0",
+          "buildNumber": 0,
+          "version": "0.5.1"
+        },
+        {
+          "buildString": "he1b5a44_0",
+          "name": "pcre",
+          "distName": "pcre-8.44-he1b5a44_0",
+          "buildNumber": 0,
+          "version": "8.44"
+        },
+        {
+          "buildString": "py36h8328e55_1",
+          "name": "pillow",
+          "distName": "pillow-7.2.0-py36h8328e55_1",
+          "buildNumber": 1,
+          "version": "7.2.0"
+        },
+        {
+          "buildString": "py36_0",
+          "name": "pip",
+          "distName": "pip-20.2.3-py36_0",
+          "buildNumber": 0,
+          "version": "20.2.3"
+        },
+        {
+          "buildString": "h7b6447c_0",
+          "name": "pixman",
+          "distName": "pixman-0.40.0-h7b6447c_0",
+          "buildNumber": 0,
+          "version": "0.40.0"
+        },
+        {
+          "buildString": "py_0",
+          "name": "plotly",
+          "distName": "plotly-4.11.0-py_0",
+          "buildNumber": 0,
+          "version": "4.11.0"
+        },
+        {
+          "buildString": "py36he6145b8_1",
+          "name": "psutil",
+          "distName": "psutil-5.7.2-py36he6145b8_1",
+          "buildNumber": 1,
+          "version": "5.7.2"
+        },
+        {
+          "buildString": "py36h4c5857e_4",
+          "name": "py2bit",
+          "distName": "py2bit-0.3.0-py36h4c5857e_4",
+          "buildNumber": 4,
+          "version": "0.3.0"
+        },
+        {
+          "buildString": "pyh9f0ad1d_1",
+          "name": "py4j",
+          "distName": "py4j-0.10.8.1-pyh9f0ad1d_1",
+          "buildNumber": 1,
+          "version": "0.10.8.1"
+        },
+        {
+          "buildString": "py36he6710b0_0",
+          "name": "pyarrow",
+          "distName": "pyarrow-0.13.0-py36he6710b0_0",
+          "buildNumber": 0,
+          "version": "0.13.0"
+        },
+        {
+          "buildString": "py36hc013797_0",
+          "name": "pybigwig",
+          "distName": "pybigwig-0.3.17-py36hc013797_0",
+          "buildNumber": 0,
+          "version": "0.3.17"
+        },
+        {
+          "buildString": "py36h2a1e443_0",
+          "name": "pycairo",
+          "distName": "pycairo-1.19.1-py36h2a1e443_0",
+          "buildNumber": 0,
+          "version": "1.19.1"
+        },
+        {
+          "buildString": "py_2",
+          "name": "pycparser",
+          "distName": "pycparser-2.20-py_2",
+          "buildNumber": 2,
+          "version": "2.20"
+        },
+        {
+          "buildString": "mkl_py36h28b16d9_1",
+          "name": "pyinterp",
+          "distName": "pyinterp-0.4.0-mkl_py36h28b16d9_1",
+          "buildNumber": 1,
+          "version": "0.4.0"
+        },
+        {
+          "buildString": "py_1",
+          "name": "pyopenssl",
+          "distName": "pyopenssl-19.1.0-py_1",
+          "buildNumber": 1,
+          "version": "19.1.0"
+        },
+        {
+          "buildString": "py_0",
+          "name": "pyparsing",
+          "distName": "pyparsing-2.4.7-py_0",
+          "buildNumber": 0,
+          "version": "2.4.7"
+        },
+        {
+          "buildString": "py36h22d08a2_1",
+          "name": "pyqt",
+          "distName": "pyqt-5.9.2-py36h22d08a2_1",
+          "buildNumber": 1,
+          "version": "5.9.2"
+        },
+        {
+          "buildString": "py36h5ad169c_0",
+          "name": "pysam",
+          "distName": "pysam-0.15.3-py36h5ad169c_0",
+          "buildNumber": 0,
+          "version": "0.15.3"
+        },
+        {
+          "buildString": "py36h9f0ad1d_1",
+          "name": "pysocks",
+          "distName": "pysocks-1.7.1-py36h9f0ad1d_1",
+          "buildNumber": 1,
+          "version": "1.7.1"
+        },
+        {
+          "buildString": "py_0",
+          "name": "pyspark-src",
+          "distName": "pyspark-src-3.0.0_palantir.75.2-py_0",
+          "buildNumber": 0,
+          "version": "3.0.0_palantir.75.2"
+        },
+        {
+          "buildString": "h0371630_0",
+          "name": "python",
+          "distName": "python-3.6.10-h0371630_0",
+          "buildNumber": 0,
+          "version": "3.6.10"
+        },
+        {
+          "buildString": "py_0",
+          "name": "python-dateutil",
+          "distName": "python-dateutil-2.8.1-py_0",
+          "buildNumber": 0,
+          "version": "2.8.1"
+        },
+        {
+          "buildString": "py36_0",
+          "name": "python-file-paths",
+          "distName": "python-file-paths-0.0.10-py36_0",
+          "buildNumber": 0,
+          "version": "0.0.10"
+        },
+        {
+          "buildString": "1_cp36m",
+          "name": "python_abi",
+          "distName": "python_abi-3.6-1_cp36m",
+          "buildNumber": 1,
+          "version": "3.6"
+        },
+        {
+          "buildString": "py_0",
+          "name": "pytz",
+          "distName": "pytz-2020.1-py_0",
+          "buildNumber": 0,
+          "version": "2020.1"
+        },
+        {
+          "buildString": "py36h7b6447c_1",
+          "name": "pyyaml",
+          "distName": "pyyaml-5.3.1-py36h7b6447c_1",
+          "buildNumber": 1,
+          "version": "5.3.1"
+        },
+        {
+          "buildString": "h5867ecd_1",
+          "name": "qt",
+          "distName": "qt-5.9.7-h5867ecd_1",
+          "buildNumber": 1,
+          "version": "5.9.7"
+        },
+        {
+          "buildString": "r351_1",
+          "name": "qtl2",
+          "distName": "qtl2-0.20-r351_1",
+          "buildNumber": 1,
+          "version": "0.20"
+        },
+        {
+          "buildString": "r35h6115d3f_1002",
+          "name": "r-abind",
+          "distName": "r-abind-1.4_5-r35h6115d3f_1002",
+          "buildNumber": 1002,
+          "version": "1.4_5"
+        },
+        {
+          "buildString": "r35h9bbef5b_1004",
+          "name": "r-acepack",
+          "distName": "r-acepack-1.4.1-r35h9bbef5b_1004",
+          "buildNumber": 1004,
+          "version": "1.4.1"
+        },
+        {
+          "buildString": "r35h7fa42b6_1",
+          "name": "r-ade4",
+          "distName": "r-ade4-1.7_15-r35h7fa42b6_1",
+          "buildNumber": 1,
+          "version": "1.7_15"
+        },
+        {
+          "buildString": "r35h6786f55_1002",
+          "name": "r-amap",
+          "distName": "r-amap-0.8_16-r35h6786f55_1002",
+          "buildNumber": 1002,
+          "version": "0.8_16"
+        },
+        {
+          "buildString": "r35h0357c0b_1",
+          "name": "r-ape",
+          "distName": "r-ape-5.3-r35h0357c0b_1",
+          "buildNumber": 1,
+          "version": "5.3"
+        },
+        {
+          "buildString": "r351he1b5a44_0",
+          "name": "r-arrow",
+          "distName": "r-arrow-0.13.0-r351he1b5a44_0",
+          "buildNumber": 0,
+          "version": "0.13.0"
+        },
+        {
+          "buildString": "r35h0357c0b_0",
+          "name": "r-ashr",
+          "distName": "r-ashr-2.2_47-r35h0357c0b_0",
+          "buildNumber": 0,
+          "version": "2.2_47"
+        },
+        {
+          "buildString": "r35hcdcec82_1",
+          "name": "r-askpass",
+          "distName": "r-askpass-1.1-r35hcdcec82_1",
+          "buildNumber": 1,
+          "version": "1.1"
+        },
+        {
+          "buildString": "r35h6115d3f_1",
+          "name": "r-assertthat",
+          "distName": "r-assertthat-0.2.1-r35h6115d3f_1",
+          "buildNumber": 1,
+          "version": "0.2.1"
+        },
+        {
+          "buildString": "r35h96ca727_0",
+          "name": "r-backports",
+          "distName": "r-backports-1.1.8-r35h96ca727_0",
+          "buildNumber": 0,
+          "version": "1.1.8"
+        },
+        {
+          "buildString": "he45234b_1005",
+          "name": "r-base",
+          "distName": "r-base-3.5.1-he45234b_1005",
+          "buildNumber": 1005,
+          "version": "3.5.1"
+        },
+        {
+          "buildString": "r35hcdcec82_1003",
+          "name": "r-base64enc",
+          "distName": "r-base64enc-0.1_3-r35hcdcec82_1003",
+          "buildNumber": 1003,
+          "version": "0.1_3"
+        },
+        {
+          "buildString": "r35h6115d3f_1",
+          "name": "r-batchjobs",
+          "distName": "r-batchjobs-1.8-r35h6115d3f_1",
+          "buildNumber": 1,
+          "version": "1.8"
+        },
+        {
+          "buildString": "r35hcdcec82_1002",
+          "name": "r-bbmisc",
+          "distName": "r-bbmisc-1.11-r35hcdcec82_1002",
+          "buildNumber": 1002,
+          "version": "1.11"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-bbmle",
+          "distName": "r-bbmle-1.0.23.1-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "1.0.23.1"
+        },
+        {
+          "buildString": "r35hcdcec82_0",
+          "name": "r-bdsmatrix",
+          "distName": "r-bdsmatrix-1.3_4-r35hcdcec82_0",
+          "buildNumber": 0,
+          "version": "1.3_4"
+        },
+        {
+          "buildString": "r35h6115d3f_1002",
+          "name": "r-beeswarm",
+          "distName": "r-beeswarm-0.2.3-r35h6115d3f_1002",
+          "buildNumber": 1002,
+          "version": "0.2.3"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-bh",
+          "distName": "r-bh-1.72.0_3-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "1.72.0_3"
+        },
+        {
+          "buildString": "r35hcdcec82_0",
+          "name": "r-bibtex",
+          "distName": "r-bibtex-0.4.2.2-r35hcdcec82_0",
+          "buildNumber": 0,
+          "version": "0.4.2.2"
+        },
+        {
+          "buildString": "r351h6115d3f_0",
+          "name": "r-bigl",
+          "distName": "r-bigl-1.2.3-r351h6115d3f_0",
+          "buildNumber": 0,
+          "version": "1.2.3"
+        },
+        {
+          "buildString": "r35h0357c0b_0",
+          "name": "r-bio3d",
+          "distName": "r-bio3d-2.4_1-r35h0357c0b_0",
+          "buildNumber": 0,
+          "version": "2.4_1"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-biocmanager",
+          "distName": "r-biocmanager-1.30.10-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "1.30.10"
+        },
+        {
+          "buildString": "r35hcdcec82_0",
+          "name": "r-bit",
+          "distName": "r-bit-1.1_15.2-r35hcdcec82_0",
+          "buildNumber": 0,
+          "version": "1.1_15.2"
+        },
+        {
+          "buildString": "r35hcdcec82_1001",
+          "name": "r-bit64",
+          "distName": "r-bit64-0.9_7-r35hcdcec82_1001",
+          "buildNumber": 1001,
+          "version": "0.9_7"
+        },
+        {
+          "buildString": "r35hcdcec82_1003",
+          "name": "r-bitops",
+          "distName": "r-bitops-1.0_6-r35hcdcec82_1003",
+          "buildNumber": 1003,
+          "version": "1.0_6"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-blob",
+          "distName": "r-blob-1.2.1-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "1.2.1"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-boot",
+          "distName": "r-boot-1.3_25-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "1.3_25"
+        },
+        {
+          "buildString": "r35h6115d3f_1002",
+          "name": "r-brew",
+          "distName": "r-brew-1.0_6-r35h6115d3f_1002",
+          "buildNumber": 1002,
+          "version": "1.0_6"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-broom",
+          "distName": "r-broom-0.5.6-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "0.5.6"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-callr",
+          "distName": "r-callr-3.4.3-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "3.4.3"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-car",
+          "distName": "r-car-3.0_7-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "3.0_7"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-cardata",
+          "distName": "r-cardata-3.0_3-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "3.0_3"
+        },
+        {
+          "buildString": "r35hcdcec82_1",
+          "name": "r-caret",
+          "distName": "r-caret-6.0_86-r35hcdcec82_1",
+          "buildNumber": 1,
+          "version": "6.0_86"
+        },
+        {
+          "buildString": "r35h0357c0b_0",
+          "name": "r-catools",
+          "distName": "r-catools-1.17.1.4-r35h0357c0b_0",
+          "buildNumber": 0,
+          "version": "1.17.1.4"
+        },
+        {
+          "buildString": "r35h6115d3f_1002",
+          "name": "r-cellranger",
+          "distName": "r-cellranger-1.1.0-r35h6115d3f_1002",
+          "buildNumber": 1002,
+          "version": "1.1.0"
+        },
+        {
+          "buildString": "r35hcdcec82_0",
+          "name": "r-checkmate",
+          "distName": "r-checkmate-2.0.0-r35hcdcec82_0",
+          "buildNumber": 0,
+          "version": "2.0.0"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-circlize",
+          "distName": "r-circlize-0.4.9-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "0.4.9"
+        },
+        {
+          "buildString": "r35hcdcec82_0",
+          "name": "r-class",
+          "distName": "r-class-7.3_17-r35hcdcec82_0",
+          "buildNumber": 0,
+          "version": "7.3_17"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-cli",
+          "distName": "r-cli-2.0.2-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "2.0.2"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-clipr",
+          "distName": "r-clipr-0.7.0-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "0.7.0"
+        },
+        {
+          "buildString": "r35h9bbef5b_2",
+          "name": "r-cluster",
+          "distName": "r-cluster-2.1.0-r35h9bbef5b_2",
+          "buildNumber": 2,
+          "version": "2.1.0"
+        },
+        {
+          "buildString": "r35h6115d3f_1",
+          "name": "r-coda",
+          "distName": "r-coda-0.19_3-r35h6115d3f_1",
+          "buildNumber": 1,
+          "version": "0.19_3"
+        },
+        {
+          "buildString": "r35h6115d3f_1001",
+          "name": "r-codetools",
+          "distName": "r-codetools-0.2_16-r35h6115d3f_1001",
+          "buildNumber": 1001,
+          "version": "0.2_16"
+        },
+        {
+          "buildString": "r35_1002",
+          "name": "r-colorramps",
+          "distName": "r-colorramps-2.3-r35_1002",
+          "buildNumber": 1002,
+          "version": "2.3"
+        },
+        {
+          "buildString": "r35hcdcec82_1",
+          "name": "r-colorspace",
+          "distName": "r-colorspace-1.4_1-r35hcdcec82_1",
+          "buildNumber": 1,
+          "version": "1.4_1"
+        },
+        {
+          "buildString": "r35h6115d3f_1002",
+          "name": "r-combinat",
+          "distName": "r-combinat-0.0_8-r35h6115d3f_1002",
+          "buildNumber": 1002,
+          "version": "0.0_8"
+        },
+        {
+          "buildString": "r35h516909a_1003",
+          "name": "r-cometexacttest",
+          "distName": "r-cometexacttest-0.1.5-r35h516909a_1003",
+          "buildNumber": 1003,
+          "version": "0.1.5"
+        },
+        {
+          "buildString": "r35hcdcec82_1001",
+          "name": "r-commonmark",
+          "distName": "r-commonmark-1.7-r35hcdcec82_1001",
+          "buildNumber": 1001,
+          "version": "1.7"
+        },
+        {
+          "buildString": "r35_1002",
+          "name": "r-corrplot",
+          "distName": "r-corrplot-0.84-r35_1002",
+          "buildNumber": 1002,
+          "version": "0.84"
+        },
+        {
+          "buildString": "r35h0357c0b_0",
+          "name": "r-covr",
+          "distName": "r-covr-3.5.0-r35h0357c0b_0",
+          "buildNumber": 0,
+          "version": "3.5.0"
+        },
+        {
+          "buildString": "r35h6115d3f_1",
+          "name": "r-cowplot",
+          "distName": "r-cowplot-1.0.0-r35h6115d3f_1",
+          "buildNumber": 1,
+          "version": "1.0.0"
+        },
+        {
+          "buildString": "r35h6115d3f_1002",
+          "name": "r-crayon",
+          "distName": "r-crayon-1.3.4-r35h6115d3f_1002",
+          "buildNumber": 1002,
+          "version": "1.3.4"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-crosstalk",
+          "distName": "r-crosstalk-1.1.0.1-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "1.1.0.1"
+        },
+        {
+          "buildString": "r35hcdcec82_0",
+          "name": "r-curl",
+          "distName": "r-curl-4.3-r35hcdcec82_0",
+          "buildNumber": 0,
+          "version": "4.3"
+        },
+        {
+          "buildString": "r35hcdcec82_0",
+          "name": "r-data.table",
+          "distName": "r-data.table-1.12.8-r35hcdcec82_0",
+          "buildNumber": 0,
+          "version": "1.12.8"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-dbi",
+          "distName": "r-dbi-1.1.0-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "1.1.0"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-dbplyr",
+          "distName": "r-dbplyr-1.4.3-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "1.4.3"
+        },
+        {
+          "buildString": "r35he1b5a44_1003",
+          "name": "r-ddrtree",
+          "distName": "r-ddrtree-0.1.5-r35he1b5a44_1003",
+          "buildNumber": 1003,
+          "version": "0.1.5"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-dendextend",
+          "distName": "r-dendextend-1.13.4-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "1.13.4"
+        },
+        {
+          "buildString": "r35_1001",
+          "name": "r-dendsort",
+          "distName": "r-dendsort-0.3.3-r35_1001",
+          "buildNumber": 1001,
+          "version": "0.3.3"
+        },
+        {
+          "buildString": "r35h0357c0b_1003",
+          "name": "r-densityclust",
+          "distName": "r-densityclust-0.3-r35h0357c0b_1003",
+          "buildNumber": 1003,
+          "version": "0.3"
+        },
+        {
+          "buildString": "r35h6115d3f_1002",
+          "name": "r-deoptimr",
+          "distName": "r-deoptimr-1.0_8-r35h6115d3f_1002",
+          "buildNumber": 1002,
+          "version": "1.0_8"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-deriv",
+          "distName": "r-deriv-4.0-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "4.0"
+        },
+        {
+          "buildString": "r35h6115d3f_1002",
+          "name": "r-desc",
+          "distName": "r-desc-1.2.0-r35h6115d3f_1002",
+          "buildNumber": 1002,
+          "version": "1.2.0"
+        },
+        {
+          "buildString": "r35h9bbef5b_0",
+          "name": "r-desolve",
+          "distName": "r-desolve-1.28-r35h9bbef5b_0",
+          "buildNumber": 0,
+          "version": "1.28"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-devtools",
+          "distName": "r-devtools-2.3.0-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "2.3.0"
+        },
+        {
+          "buildString": "r35_2001",
+          "name": "r-dichromat",
+          "distName": "r-dichromat-2.0_0-r35_2001",
+          "buildNumber": 2001,
+          "version": "2.0_0"
+        },
+        {
+          "buildString": "r35h0357c0b_1",
+          "name": "r-digest",
+          "distName": "r-digest-0.6.25-r35h0357c0b_1",
+          "buildNumber": 1,
+          "version": "0.6.25"
+        },
+        {
+          "buildString": "r35h6115d3f_1",
+          "name": "r-docopt",
+          "distName": "r-docopt-0.6.1-r35h6115d3f_1",
+          "buildNumber": 1,
+          "version": "0.6.1"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-dofuture",
+          "distName": "r-dofuture-0.9.0-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "0.9.0"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-doparallel",
+          "distName": "r-doparallel-1.0.15-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "1.0.15"
+        },
+        {
+          "buildString": "r35h9bbef5b_1004",
+          "name": "r-dotcall64",
+          "distName": "r-dotcall64-1.0_0-r35h9bbef5b_1004",
+          "buildNumber": 1004,
+          "version": "1.0_0"
+        },
+        {
+          "buildString": "r35h6115d3f_1002",
+          "name": "r-downloader",
+          "distName": "r-downloader-0.4-r35h6115d3f_1002",
+          "buildNumber": 1002,
+          "version": "0.4"
+        },
+        {
+          "buildString": "r35h0357c0b_0",
+          "name": "r-dplyr",
+          "distName": "r-dplyr-0.8.5-r35h0357c0b_0",
+          "buildNumber": 0,
+          "version": "0.8.5"
+        },
+        {
+          "buildString": "r35h9bbef5b_1002",
+          "name": "r-dppackage",
+          "distName": "r-dppackage-1.1_7.4-r35h9bbef5b_1002",
+          "buildNumber": 1002,
+          "version": "1.1_7.4"
+        },
+        {
+          "buildString": "r35h0357c0b_1",
+          "name": "r-dqrng",
+          "distName": "r-dqrng-0.2.1-r35h0357c0b_1",
+          "buildNumber": 1,
+          "version": "0.2.1"
+        },
+        {
+          "buildString": "r35_1002",
+          "name": "r-drc",
+          "distName": "r-drc-3.0_1-r35_1002",
+          "buildNumber": 1002,
+          "version": "3.0_1"
+        },
+        {
+          "buildString": "r351h6115d3f_0",
+          "name": "r-drugcombo",
+          "distName": "r-drugcombo-1.0.3-r351h6115d3f_0",
+          "buildNumber": 0,
+          "version": "1.0.3"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-dt",
+          "distName": "r-dt-0.13-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "0.13"
+        },
+        {
+          "buildString": "r35h6115d3f_1002",
+          "name": "r-dynamictreecut",
+          "distName": "r-dynamictreecut-1.63_1-r35h6115d3f_1002",
+          "buildNumber": 1002,
+          "version": "1.63_1"
+        },
+        {
+          "buildString": "r35hcdcec82_0",
+          "name": "r-ellipsis",
+          "distName": "r-ellipsis-0.3.0-r35hcdcec82_0",
+          "buildNumber": 0,
+          "version": "0.3.0"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-emdbook",
+          "distName": "r-emdbook-1.3.12-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "1.3.12"
+        },
+        {
+          "buildString": "r35_1001",
+          "name": "r-etrunct",
+          "distName": "r-etrunct-0.1-r35_1001",
+          "buildNumber": 1001,
+          "version": "0.1"
+        },
+        {
+          "buildString": "r35h6115d3f_1",
+          "name": "r-evaluate",
+          "distName": "r-evaluate-0.14-r35h6115d3f_1",
+          "buildNumber": 1,
+          "version": "0.14"
+        },
+        {
+          "buildString": "r35hcdcec82_0",
+          "name": "r-exactranktests",
+          "distName": "r-exactranktests-0.8_31-r35hcdcec82_0",
+          "buildNumber": 0,
+          "version": "0.8_31"
+        },
+        {
+          "buildString": "r35hcdcec82_0",
+          "name": "r-fansi",
+          "distName": "r-fansi-0.4.1-r35hcdcec82_0",
+          "buildNumber": 0,
+          "version": "0.4.1"
+        },
+        {
+          "buildString": "r35h0357c0b_0",
+          "name": "r-farver",
+          "distName": "r-farver-2.0.3-r35h0357c0b_0",
+          "buildNumber": 0,
+          "version": "2.0.3"
+        },
+        {
+          "buildString": "r35hc99cbb1_1002",
+          "name": "r-fastcluster",
+          "distName": "r-fastcluster-1.1.25-r35hc99cbb1_1002",
+          "buildNumber": 1002,
+          "version": "1.1.25"
+        },
+        {
+          "buildString": "r35hcdcec82_0",
+          "name": "r-fastica",
+          "distName": "r-fastica-1.2_2-r35hcdcec82_0",
+          "buildNumber": 0,
+          "version": "1.2_2"
+        },
+        {
+          "buildString": "r35h0357c0b_0",
+          "name": "r-fastmap",
+          "distName": "r-fastmap-1.0.1-r35h0357c0b_0",
+          "buildNumber": 0,
+          "version": "1.0.1"
+        },
+        {
+          "buildString": "r35hcdcec82_1004",
+          "name": "r-fastmatch",
+          "distName": "r-fastmatch-1.1_0-r35hcdcec82_1004",
+          "buildNumber": 1004,
+          "version": "1.1_0"
+        },
+        {
+          "buildString": "r35h9bbef5b_0",
+          "name": "r-fields",
+          "distName": "r-fields-10.3-r35h9bbef5b_0",
+          "buildNumber": 0,
+          "version": "10.3"
+        },
+        {
+          "buildString": "r35h6115d3f_1002",
+          "name": "r-fit.models",
+          "distName": "r-fit.models-0.5_14-r35h6115d3f_1002",
+          "buildNumber": 1002,
+          "version": "0.5_14"
+        },
+        {
+          "buildString": "r35h6115d3f_1",
+          "name": "r-fitdistrplus",
+          "distName": "r-fitdistrplus-1.0_14-r35h6115d3f_1",
+          "buildNumber": 1,
+          "version": "1.0_14"
+        },
+        {
+          "buildString": "r35h0357c0b_1",
+          "name": "r-fnn",
+          "distName": "r-fnn-1.1.3-r35h0357c0b_1",
+          "buildNumber": 1,
+          "version": "1.1.3"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-forcats",
+          "distName": "r-forcats-0.5.0-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "0.5.0"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-foreach",
+          "distName": "r-foreach-1.5.0-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "1.5.0"
+        },
+        {
+          "buildString": "r35hcdcec82_0",
+          "name": "r-foreign",
+          "distName": "r-foreign-0.8_76-r35hcdcec82_0",
+          "buildNumber": 0,
+          "version": "0.8_76"
+        },
+        {
+          "buildString": "r35h6115d3f_1",
+          "name": "r-formatr",
+          "distName": "r-formatr-1.7-r35h6115d3f_1",
+          "buildNumber": 1,
+          "version": "1.7"
+        },
+        {
+          "buildString": "r35h6115d3f_1002",
+          "name": "r-formula",
+          "distName": "r-formula-1.2_3-r35h6115d3f_1002",
+          "buildNumber": 1002,
+          "version": "1.2_3"
+        },
+        {
+          "buildString": "r3.5.1_0",
+          "name": "r-foundry-objects",
+          "distName": "r-foundry-objects-0.19.0+8.gbc984f7-r3.5.1_0",
+          "buildNumber": 1,
+          "version": "0.19.0+8.gbc984f7"
+        },
+        {
+          "buildString": "r35h0357c0b_0",
+          "name": "r-fs",
+          "distName": "r-fs-1.4.1-r35h0357c0b_0",
+          "buildNumber": 0,
+          "version": "1.4.1"
+        },
+        {
+          "buildString": "r35h6115d3f_1002",
+          "name": "r-futile.logger",
+          "distName": "r-futile.logger-1.4.3-r35h6115d3f_1002",
+          "buildNumber": 1002,
+          "version": "1.4.3"
+        },
+        {
+          "buildString": "r35h6115d3f_1001",
+          "name": "r-futile.options",
+          "distName": "r-futile.options-1.0.1-r35h6115d3f_1001",
+          "buildNumber": 1001,
+          "version": "1.0.1"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-future",
+          "distName": "r-future-1.17.0-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "1.17.0"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-future.apply",
+          "distName": "r-future.apply-1.5.0-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "1.5.0"
+        },
+        {
+          "buildString": "r35h6115d3f_1001",
+          "name": "r-gbrd",
+          "distName": "r-gbrd-0.4_11-r35h6115d3f_1001",
+          "buildNumber": 1001,
+          "version": "0.4_11"
+        },
+        {
+          "buildString": "r35h6115d3f_1002",
+          "name": "r-gdata",
+          "distName": "r-gdata-2.18.0-r35h6115d3f_1002",
+          "buildNumber": 1002,
+          "version": "2.18.0"
+        },
+        {
+          "buildString": "r351hb4b2023_1000",
+          "name": "r-gdtools",
+          "distName": "r-gdtools-0.1.7-r351hb4b2023_1000",
+          "buildNumber": 1000,
+          "version": "0.1.7"
+        },
+        {
+          "buildString": "r35h0357c0b_0",
+          "name": "r-geiger",
+          "distName": "r-geiger-2.0.6.4-r35h0357c0b_0",
+          "buildNumber": 0,
+          "version": "2.0.6.4"
+        },
+        {
+          "buildString": "r35h6115d3f_1002",
+          "name": "r-generics",
+          "distName": "r-generics-0.0.2-r35h6115d3f_1002",
+          "buildNumber": 1002,
+          "version": "0.0.2"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-getoptlong",
+          "distName": "r-getoptlong-0.1.8-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "0.1.8"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-ggally",
+          "distName": "r-ggally-1.5.0-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "1.5.0"
+        },
+        {
+          "buildString": "r35_1002",
+          "name": "r-ggbeeswarm",
+          "distName": "r-ggbeeswarm-0.6.0-r35_1002",
+          "buildNumber": 1002,
+          "version": "0.6.0"
+        },
+        {
+          "buildString": "r35h6115d3f_1002",
+          "name": "r-ggdendro",
+          "distName": "r-ggdendro-0.1_20-r35h6115d3f_1002",
+          "buildNumber": 1002,
+          "version": "0.1_20"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-ggfortify",
+          "distName": "r-ggfortify-0.4.10-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "0.4.10"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-ggplot2",
+          "distName": "r-ggplot2-3.3.0-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "3.3.0"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-ggpubr",
+          "distName": "r-ggpubr-0.2.5-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "0.2.5"
+        },
+        {
+          "buildString": "r35h0357c0b_0",
+          "name": "r-ggrepel",
+          "distName": "r-ggrepel-0.8.2-r35h0357c0b_0",
+          "buildNumber": 0,
+          "version": "0.8.2"
+        },
+        {
+          "buildString": "r35h6115d3f_1",
+          "name": "r-ggridges",
+          "distName": "r-ggridges-0.5.2-r35h6115d3f_1",
+          "buildNumber": 1,
+          "version": "0.5.2"
+        },
+        {
+          "buildString": "r35h6115d3f_1002",
+          "name": "r-ggsci",
+          "distName": "r-ggsci-2.9-r35h6115d3f_1002",
+          "buildNumber": 1002,
+          "version": "2.9"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-ggsignif",
+          "distName": "r-ggsignif-0.6.0-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "0.6.0"
+        },
+        {
+          "buildString": "r35h6115d3f_1",
+          "name": "r-ggthemes",
+          "distName": "r-ggthemes-4.2.0-r35h6115d3f_1",
+          "buildNumber": 1,
+          "version": "4.2.0"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-gh",
+          "distName": "r-gh-1.1.0-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "1.1.0"
+        },
+        {
+          "buildString": "r35h5ca76e2_1",
+          "name": "r-git2r",
+          "distName": "r-git2r-0.26.1-r35h5ca76e2_1",
+          "buildNumber": 1,
+          "version": "0.26.1"
+        },
+        {
+          "buildString": "r35_0",
+          "name": "r-globaloptions",
+          "distName": "r-globaloptions-0.1.1-r35_0",
+          "buildNumber": 0,
+          "version": "0.1.1"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-globals",
+          "distName": "r-globals-0.12.5-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "0.12.5"
+        },
+        {
+          "buildString": "r35hcdcec82_0",
+          "name": "r-glue",
+          "distName": "r-glue-1.4.0-r35hcdcec82_0",
+          "buildNumber": 0,
+          "version": "1.4.0"
+        },
+        {
+          "buildString": "r35hcdcec82_1",
+          "name": "r-gower",
+          "distName": "r-gower-0.2.1-r35hcdcec82_1",
+          "buildNumber": 1,
+          "version": "0.2.1"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-gplots",
+          "distName": "r-gplots-3.0.3-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "3.0.3"
+        },
+        {
+          "buildString": "r35h6115d3f_1002",
+          "name": "r-gridbase",
+          "distName": "r-gridbase-0.4_7-r35h6115d3f_1002",
+          "buildNumber": 1002,
+          "version": "0.4_7"
+        },
+        {
+          "buildString": "r35h6115d3f_1002",
+          "name": "r-gridextra",
+          "distName": "r-gridextra-2.3-r35h6115d3f_1002",
+          "buildNumber": 1002,
+          "version": "2.3"
+        },
+        {
+          "buildString": "r35_0",
+          "name": "r-grimport",
+          "distName": "r-grimport-0.9_3-r35_0",
+          "buildNumber": 0,
+          "version": "0.9_3"
+        },
+        {
+          "buildString": "r35h6115d3f_2",
+          "name": "r-gtable",
+          "distName": "r-gtable-0.3.0-r35h6115d3f_2",
+          "buildNumber": 2,
+          "version": "0.3.0"
+        },
+        {
+          "buildString": "r35hcdcec82_0",
+          "name": "r-gtools",
+          "distName": "r-gtools-3.8.2-r35hcdcec82_0",
+          "buildNumber": 0,
+          "version": "3.8.2"
+        },
+        {
+          "buildString": "r35_0",
+          "name": "r-harmony",
+          "distName": "r-harmony-1.0-r35_0",
+          "buildNumber": 0,
+          "version": "1.0"
+        },
+        {
+          "buildString": "r35hde08347_0",
+          "name": "r-haven",
+          "distName": "r-haven-2.2.0-r35hde08347_0",
+          "buildNumber": 0,
+          "version": "2.2.0"
+        },
+        {
+          "buildString": "r35h3e93a20_0",
+          "name": "r-hdf5r",
+          "distName": "r-hdf5r-1.3.2-r35h3e93a20_0",
+          "buildNumber": 0,
+          "version": "1.3.2"
+        },
+        {
+          "buildString": "r35h9bbef5b_0",
+          "name": "r-hexbin",
+          "distName": "r-hexbin-1.28.1-r35h9bbef5b_0",
+          "buildNumber": 0,
+          "version": "1.28.1"
+        },
+        {
+          "buildString": "r35h6115d3f_1",
+          "name": "r-highr",
+          "distName": "r-highr-0.8-r35h6115d3f_1",
+          "buildNumber": 1,
+          "version": "0.8"
+        },
+        {
+          "buildString": "r35h9bbef5b_0",
+          "name": "r-hmisc",
+          "distName": "r-hmisc-4.4_0-r35h9bbef5b_0",
+          "buildNumber": 0,
+          "version": "4.4_0"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-hms",
+          "distName": "r-hms-0.5.3-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "0.5.3"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-htmltable",
+          "distName": "r-htmltable-1.13.3-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "1.13.3"
+        },
+        {
+          "buildString": "r35h0357c0b_0",
+          "name": "r-htmltools",
+          "distName": "r-htmltools-0.4.0-r35h0357c0b_0",
+          "buildNumber": 0,
+          "version": "0.4.0"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-htmlwidgets",
+          "distName": "r-htmlwidgets-1.5.1-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "1.5.1"
+        },
+        {
+          "buildString": "r35h0357c0b_1",
+          "name": "r-httpuv",
+          "distName": "r-httpuv-1.5.2-r35h0357c0b_1",
+          "buildNumber": 1,
+          "version": "1.5.2"
+        },
+        {
+          "buildString": "r35h6115d3f_1",
+          "name": "r-httr",
+          "distName": "r-httr-1.4.1-r35h6115d3f_1",
+          "buildNumber": 1,
+          "version": "1.4.1"
+        },
+        {
+          "buildString": "r35h6115d3f_1002",
+          "name": "r-hwriter",
+          "distName": "r-hwriter-1.3.2-r35h6115d3f_1002",
+          "buildNumber": 1002,
+          "version": "1.3.2"
+        },
+        {
+          "buildString": "r35h6115d3f_1",
+          "name": "r-ica",
+          "distName": "r-ica-1.0_2-r35h6115d3f_1",
+          "buildNumber": 1,
+          "version": "1.0_2"
+        },
+        {
+          "buildString": "r35hd626d4e_0",
+          "name": "r-igraph",
+          "distName": "r-igraph-1.2.5-r35hd626d4e_0",
+          "buildNumber": 0,
+          "version": "1.2.5"
+        },
+        {
+          "buildString": "r35h6115d3f_1002",
+          "name": "r-ini",
+          "distName": "r-ini-0.3.1-r35h6115d3f_1002",
+          "buildNumber": 1002,
+          "version": "0.3.1"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-invgamma",
+          "distName": "r-invgamma-1.1-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "1.1"
+        },
+        {
+          "buildString": "r35hcdcec82_1",
+          "name": "r-ipred",
+          "distName": "r-ipred-0.9_9-r35hcdcec82_1",
+          "buildNumber": 1,
+          "version": "0.9_9"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-ips",
+          "distName": "r-ips-0.0.11-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "0.0.11"
+        },
+        {
+          "buildString": "r35h7fa42b6_2",
+          "name": "r-irlba",
+          "distName": "r-irlba-2.3.3-r35h7fa42b6_2",
+          "buildNumber": 2,
+          "version": "2.3.3"
+        },
+        {
+          "buildString": "r35h0357c0b_0",
+          "name": "r-isoband",
+          "distName": "r-isoband-0.2.1-r35h0357c0b_0",
+          "buildNumber": 0,
+          "version": "0.2.1"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-iterators",
+          "distName": "r-iterators-1.0.12-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "1.0.12"
+        },
+        {
+          "buildString": "r35hcdcec82_0",
+          "name": "r-jsonlite",
+          "distName": "r-jsonlite-1.6.1-r35hcdcec82_0",
+          "buildNumber": 0,
+          "version": "1.6.1"
+        },
+        {
+          "buildString": "r35hfa343cc_0",
+          "name": "r-kernsmooth",
+          "distName": "r-kernsmooth-2.23_17-r35hfa343cc_0",
+          "buildNumber": 0,
+          "version": "2.23_17"
+        },
+        {
+          "buildString": "r35h6115d3f_1002",
+          "name": "r-km.ci",
+          "distName": "r-km.ci-0.5_2-r35h6115d3f_1002",
+          "buildNumber": 1002,
+          "version": "0.5_2"
+        },
+        {
+          "buildString": "r35h6115d3f_1002",
+          "name": "r-kmsurv",
+          "distName": "r-kmsurv-0.1_5-r35h6115d3f_1002",
+          "buildNumber": 1002,
+          "version": "0.1_5"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-knitr",
+          "distName": "r-knitr-1.28-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "1.28"
+        },
+        {
+          "buildString": "r35_0",
+          "name": "r-l2p",
+          "distName": "r-l2p-0.0_1-r35_0",
+          "buildNumber": 0,
+          "version": "0.0_1"
+        },
+        {
+          "buildString": "r35h6115d3f_1002",
+          "name": "r-labeling",
+          "distName": "r-labeling-0.3-r35h6115d3f_1002",
+          "buildNumber": 1002,
+          "version": "0.3"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-lambda.r",
+          "distName": "r-lambda.r-1.2.4-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "1.2.4"
+        },
+        {
+          "buildString": "r35h0357c0b_0",
+          "name": "r-later",
+          "distName": "r-later-1.0.0-r35h0357c0b_0",
+          "buildNumber": 0,
+          "version": "1.0.0"
+        },
+        {
+          "buildString": "r35hcdcec82_1",
+          "name": "r-lattice",
+          "distName": "r-lattice-0.20_41-r35hcdcec82_1",
+          "buildNumber": 1,
+          "version": "0.20_41"
+        },
+        {
+          "buildString": "r35h6115d3f_1002",
+          "name": "r-latticeextra",
+          "distName": "r-latticeextra-0.6_28-r35h6115d3f_1002",
+          "buildNumber": 1002,
+          "version": "0.6_28"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-lava",
+          "distName": "r-lava-1.6.7-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "1.6.7"
+        },
+        {
+          "buildString": "r35hcdcec82_1",
+          "name": "r-lazyeval",
+          "distName": "r-lazyeval-0.2.2-r35hcdcec82_1",
+          "buildNumber": 1,
+          "version": "0.2.2"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-leiden",
+          "distName": "r-leiden-0.3.3-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "0.3.3"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-lifecycle",
+          "distName": "r-lifecycle-0.2.0-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "0.2.0"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-listenv",
+          "distName": "r-listenv-0.8.0-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "0.8.0"
+        },
+        {
+          "buildString": "r35h0357c0b_0",
+          "name": "r-lme4",
+          "distName": "r-lme4-1.1_23-r35h0357c0b_0",
+          "buildNumber": 0,
+          "version": "1.1_23"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-lmertest",
+          "distName": "r-lmertest-3.1_2-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "3.1_2"
+        },
+        {
+          "buildString": "r35h9bbef5b_2",
+          "name": "r-lmtest",
+          "distName": "r-lmtest-0.9_37-r35h9bbef5b_2",
+          "buildNumber": 2,
+          "version": "0.9_37"
+        },
+        {
+          "buildString": "r35hcdcec82_0",
+          "name": "r-locfit",
+          "distName": "r-locfit-1.5_9.4-r35hcdcec82_0",
+          "buildNumber": 0,
+          "version": "1.5_9.4"
+        },
+        {
+          "buildString": "r35h6e990d7_1004",
+          "name": "r-lsei",
+          "distName": "r-lsei-1.2_0-r35h6e990d7_1004",
+          "buildNumber": 1004,
+          "version": "1.2_0"
+        },
+        {
+          "buildString": "r35h0357c0b_0",
+          "name": "r-lubridate",
+          "distName": "r-lubridate-1.7.8-r35h0357c0b_0",
+          "buildNumber": 0,
+          "version": "1.7.8"
+        },
+        {
+          "buildString": "r35h6115d3f_1002",
+          "name": "r-magrittr",
+          "distName": "r-magrittr-1.5-r35h6115d3f_1002",
+          "buildNumber": 1002,
+          "version": "1.5"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-manipulatewidget",
+          "distName": "r-manipulatewidget-0.10.1-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "0.10.1"
+        },
+        {
+          "buildString": "r35hcdcec82_1003",
+          "name": "r-maps",
+          "distName": "r-maps-3.3.0-r35hcdcec82_1003",
+          "buildNumber": 1003,
+          "version": "3.3.0"
+        },
+        {
+          "buildString": "r35hcdcec82_0",
+          "name": "r-maptools",
+          "distName": "r-maptools-0.9_9-r35hcdcec82_0",
+          "buildNumber": 0,
+          "version": "0.9_9"
+        },
+        {
+          "buildString": "r35hcdcec82_0",
+          "name": "r-markdown",
+          "distName": "r-markdown-1.1-r35hcdcec82_0",
+          "buildNumber": 0,
+          "version": "1.1"
+        },
+        {
+          "buildString": "r35hcdcec82_1",
+          "name": "r-mass",
+          "distName": "r-mass-7.3_51.6-r35hcdcec82_1",
+          "buildNumber": 1,
+          "version": "7.3_51.6"
+        },
+        {
+          "buildString": "r35h6115d3f_1002",
+          "name": "r-matlab",
+          "distName": "r-matlab-1.0.2-r35h6115d3f_1002",
+          "buildNumber": 1002,
+          "version": "1.0.2"
+        },
+        {
+          "buildString": "r35h7fa42b6_2",
+          "name": "r-matrix",
+          "distName": "r-matrix-1.2_18-r35h7fa42b6_2",
+          "buildNumber": 2,
+          "version": "1.2_18"
+        },
+        {
+          "buildString": "r35h6115d3f_1002",
+          "name": "r-matrixmodels",
+          "distName": "r-matrixmodels-0.4_1-r35h6115d3f_1002",
+          "buildNumber": 1002,
+          "version": "0.4_1"
+        },
+        {
+          "buildString": "r35hcdcec82_0",
+          "name": "r-matrixstats",
+          "distName": "r-matrixstats-0.56.0-r35hcdcec82_0",
+          "buildNumber": 0,
+          "version": "0.56.0"
+        },
+        {
+          "buildString": "r35hcdcec82_1003",
+          "name": "r-maxstat",
+          "distName": "r-maxstat-0.7_25-r35hcdcec82_1003",
+          "buildNumber": 1003,
+          "version": "0.7_25"
+        },
+        {
+          "buildString": "r35hbf399a0_0",
+          "name": "r-mclust",
+          "distName": "r-mclust-5.4.6-r35hbf399a0_0",
+          "buildNumber": 0,
+          "version": "5.4.6"
+        },
+        {
+          "buildString": "r35h6115d3f_1003",
+          "name": "r-memoise",
+          "distName": "r-memoise-1.1.0-r35h6115d3f_1003",
+          "buildNumber": 1003,
+          "version": "1.1.0"
+        },
+        {
+          "buildString": "r35h6115d3f_1",
+          "name": "r-metap",
+          "distName": "r-metap-1.1-r35h6115d3f_1",
+          "buildNumber": 1,
+          "version": "1.1"
+        },
+        {
+          "buildString": "r35h7fa42b6_0",
+          "name": "r-mgcv",
+          "distName": "r-mgcv-1.8_31-r35h7fa42b6_0",
+          "buildNumber": 0,
+          "version": "1.8_31"
+        },
+        {
+          "buildString": "r35hcdcec82_0",
+          "name": "r-mime",
+          "distName": "r-mime-0.9-r35hcdcec82_0",
+          "buildNumber": 0,
+          "version": "0.9"
+        },
+        {
+          "buildString": "r35h6115d3f_1001",
+          "name": "r-miniui",
+          "distName": "r-miniui-0.1.1.1-r35h6115d3f_1001",
+          "buildNumber": 1001,
+          "version": "0.1.1.1"
+        },
+        {
+          "buildString": "r35h9bbef5b_1004",
+          "name": "r-minpack.lm",
+          "distName": "r-minpack.lm-1.2_1-r35h9bbef5b_1004",
+          "buildNumber": 1004,
+          "version": "1.2_1"
+        },
+        {
+          "buildString": "r35h6786f55_1004",
+          "name": "r-minqa",
+          "distName": "r-minqa-1.2.4-r35h6786f55_1004",
+          "buildNumber": 1004,
+          "version": "1.2.4"
+        },
+        {
+          "buildString": "r35h0357c0b_0",
+          "name": "r-mixsqp",
+          "distName": "r-mixsqp-0.3_17-r35h0357c0b_0",
+          "buildNumber": 0,
+          "version": "0.3_17"
+        },
+        {
+          "buildString": "r35h0357c0b_0",
+          "name": "r-modelmetrics",
+          "distName": "r-modelmetrics-1.2.2.2-r35h0357c0b_0",
+          "buildNumber": 0,
+          "version": "1.2.2.2"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-modelr",
+          "distName": "r-modelr-0.1.7-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "0.1.7"
+        },
+        {
+          "buildString": "r35h6115d3f_1001",
+          "name": "r-modes",
+          "distName": "r-modes-0.7.0-r35h6115d3f_1001",
+          "buildNumber": 1001,
+          "version": "0.7.0"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-multcomp",
+          "distName": "r-multcomp-1.4_13-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "1.4_13"
+        },
+        {
+          "buildString": "r35h6115d3f_1002",
+          "name": "r-munsell",
+          "distName": "r-munsell-0.5.0-r35h6115d3f_1002",
+          "buildNumber": 1002,
+          "version": "0.5.0"
+        },
+        {
+          "buildString": "r35h9bbef5b_0",
+          "name": "r-mvtnorm",
+          "distName": "r-mvtnorm-1.1_0-r35h9bbef5b_0",
+          "buildNumber": 0,
+          "version": "1.1_0"
+        },
+        {
+          "buildString": "r35h6115d3f_1001",
+          "name": "r-ncbit",
+          "distName": "r-ncbit-2013.03.29-r35h6115d3f_1001",
+          "buildNumber": 1001,
+          "version": "2013.03.29"
+        },
+        {
+          "buildString": "r35h9bbef5b_1004",
+          "name": "r-nleqslv",
+          "distName": "r-nleqslv-3.3.2-r35h9bbef5b_1004",
+          "buildNumber": 1004,
+          "version": "3.3.2"
+        },
+        {
+          "buildString": "r35h9bbef5b_0",
+          "name": "r-nlme",
+          "distName": "r-nlme-3.1_147-r35h9bbef5b_0",
+          "buildNumber": 0,
+          "version": "3.1_147"
+        },
+        {
+          "buildString": "r35h0357c0b_0",
+          "name": "r-nloptr",
+          "distName": "r-nloptr-1.2.2.1-r35h0357c0b_0",
+          "buildNumber": 0,
+          "version": "1.2.2.1"
+        },
+        {
+          "buildString": "r35h0357c0b_1003",
+          "name": "r-nmf",
+          "distName": "r-nmf-0.21.0-r35h0357c0b_1003",
+          "buildNumber": 1003,
+          "version": "0.21.0"
+        },
+        {
+          "buildString": "r35hcdcec82_0",
+          "name": "r-nnet",
+          "distName": "r-nnet-7.3_14-r35hcdcec82_0",
+          "buildNumber": 0,
+          "version": "7.3_14"
+        },
+        {
+          "buildString": "r35h6115d3f_1001",
+          "name": "r-npsurv",
+          "distName": "r-npsurv-0.4_0-r35h6115d3f_1001",
+          "buildNumber": 1001,
+          "version": "0.4_0"
+        },
+        {
+          "buildString": "r35h6115d3f_1",
+          "name": "r-numderiv",
+          "distName": "r-numderiv-2016.8_1.1-r35h6115d3f_1",
+          "buildNumber": 1,
+          "version": "2016.8_1.1"
+        },
+        {
+          "buildString": "r35h9c8475f_0",
+          "name": "r-openssl",
+          "distName": "r-openssl-1.4.1-r35h9c8475f_0",
+          "buildNumber": 0,
+          "version": "1.4.1"
+        },
+        {
+          "buildString": "r35h0357c0b_0",
+          "name": "r-openxlsx",
+          "distName": "r-openxlsx-4.1.4-r35h0357c0b_0",
+          "buildNumber": 0,
+          "version": "4.1.4"
+        },
+        {
+          "buildString": "r35_2002",
+          "name": "r-outliers",
+          "distName": "r-outliers-0.14-r35_2002",
+          "buildNumber": 2002,
+          "version": "0.14"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-patchwork",
+          "distName": "r-patchwork-1.0.0-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "1.0.0"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-pbapply",
+          "distName": "r-pbapply-1.4_2-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "1.4_2"
+        },
+        {
+          "buildString": "r35h6115d3f_1002",
+          "name": "r-pbkrtest",
+          "distName": "r-pbkrtest-0.4_7-r35h6115d3f_1002",
+          "buildNumber": 1002,
+          "version": "0.4_7"
+        },
+        {
+          "buildString": "r35hcdcec82_0",
+          "name": "r-pbmcapply",
+          "distName": "r-pbmcapply-1.5.0-r35hcdcec82_0",
+          "buildNumber": 0,
+          "version": "1.5.0"
+        },
+        {
+          "buildString": "r35h51c796c_1002",
+          "name": "r-pcapp",
+          "distName": "r-pcapp-1.9_73-r35h51c796c_1002",
+          "buildNumber": 1002,
+          "version": "1.9_73"
+        },
+        {
+          "buildString": "r35h6115d3f_2",
+          "name": "r-permute",
+          "distName": "r-permute-0.9_5-r35h6115d3f_2",
+          "buildNumber": 2,
+          "version": "0.9_5"
+        },
+        {
+          "buildString": "r35h0357c0b_1",
+          "name": "r-phangorn",
+          "distName": "r-phangorn-2.5.5-r35h0357c0b_1",
+          "buildNumber": 1,
+          "version": "2.5.5"
+        },
+        {
+          "buildString": "r35h6115d3f_1",
+          "name": "r-pheatmap",
+          "distName": "r-pheatmap-1.0.12-r35h6115d3f_1",
+          "buildNumber": 1,
+          "version": "1.0.12"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-pillar",
+          "distName": "r-pillar-1.4.3-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "1.4.3"
+        },
+        {
+          "buildString": "r35h6115d3f_1002",
+          "name": "r-pixmap",
+          "distName": "r-pixmap-0.4_11-r35h6115d3f_1002",
+          "buildNumber": 1002,
+          "version": "0.4_11"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-pkgbuild",
+          "distName": "r-pkgbuild-1.0.7-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "1.0.7"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-pkgconfig",
+          "distName": "r-pkgconfig-2.0.3-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "2.0.3"
+        },
+        {
+          "buildString": "r35h0357c0b_1001",
+          "name": "r-pkgload",
+          "distName": "r-pkgload-1.0.2-r35h0357c0b_1001",
+          "buildNumber": 1001,
+          "version": "1.0.2"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-pkgmaker",
+          "distName": "r-pkgmaker-0.31.1-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "0.31.1"
+        },
+        {
+          "buildString": "r35h6115d3f_1002",
+          "name": "r-plogr",
+          "distName": "r-plogr-0.2.0-r35h6115d3f_1002",
+          "buildNumber": 1002,
+          "version": "0.2.0"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-plotly",
+          "distName": "r-plotly-4.9.2.1-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "4.9.2.1"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-plotrix",
+          "distName": "r-plotrix-3.7_8-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "3.7_8"
+        },
+        {
+          "buildString": "r35h0357c0b_0",
+          "name": "r-plyr",
+          "distName": "r-plyr-1.8.6-r35h0357c0b_0",
+          "buildNumber": 0,
+          "version": "1.8.6"
+        },
+        {
+          "buildString": "r35hcdcec82_1003",
+          "name": "r-png",
+          "distName": "r-png-0.1_7-r35hcdcec82_1003",
+          "buildNumber": 1003,
+          "version": "0.1_7"
+        },
+        {
+          "buildString": "r35h6115d3f_1",
+          "name": "r-polynom",
+          "distName": "r-polynom-1.4_0-r35h6115d3f_1",
+          "buildNumber": 1,
+          "version": "1.4_0"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-pracma",
+          "distName": "r-pracma-2.2.9-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "2.2.9"
+        },
+        {
+          "buildString": "r35h6115d3f_1003",
+          "name": "r-praise",
+          "distName": "r-praise-1.0.0-r35h6115d3f_1003",
+          "buildNumber": 1003,
+          "version": "1.0.0"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-prettyunits",
+          "distName": "r-prettyunits-1.1.1-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "1.1.1"
+        },
+        {
+          "buildString": "r35h0357c0b_0",
+          "name": "r-proc",
+          "distName": "r-proc-1.16.2-r35h0357c0b_0",
+          "buildNumber": 0,
+          "version": "1.16.2"
+        },
+        {
+          "buildString": "r35hcdcec82_0",
+          "name": "r-processx",
+          "distName": "r-processx-3.4.2-r35hcdcec82_0",
+          "buildNumber": 0,
+          "version": "3.4.2"
+        },
+        {
+          "buildString": "r35h0357c0b_0",
+          "name": "r-prodlim",
+          "distName": "r-prodlim-2019.11.13-r35h0357c0b_0",
+          "buildNumber": 0,
+          "version": "2019.11.13"
+        },
+        {
+          "buildString": "r35h6115d3f_1",
+          "name": "r-progress",
+          "distName": "r-progress-1.2.2-r35h6115d3f_1",
+          "buildNumber": 1,
+          "version": "1.2.2"
+        },
+        {
+          "buildString": "r35h0357c0b_0",
+          "name": "r-promises",
+          "distName": "r-promises-1.1.0-r35h0357c0b_0",
+          "buildNumber": 0,
+          "version": "1.1.0"
+        },
+        {
+          "buildString": "r35hcdcec82_0",
+          "name": "r-proxy",
+          "distName": "r-proxy-0.4_24-r35hcdcec82_0",
+          "buildNumber": 0,
+          "version": "0.4_24"
+        },
+        {
+          "buildString": "r35hcdcec82_0",
+          "name": "r-ps",
+          "distName": "r-ps-1.3.2-r35hcdcec82_0",
+          "buildNumber": 0,
+          "version": "1.3.2"
+        },
+        {
+          "buildString": "r35hcdcec82_0",
+          "name": "r-purrr",
+          "distName": "r-purrr-0.3.4-r35hcdcec82_0",
+          "buildNumber": 0,
+          "version": "0.3.4"
+        },
+        {
+          "buildString": "r35h6115d3f_1001",
+          "name": "r-qlcmatrix",
+          "distName": "r-qlcmatrix-0.9.7-r35h6115d3f_1001",
+          "buildNumber": 1001,
+          "version": "0.9.7"
+        },
+        {
+          "buildString": "r35h0357c0b_0",
+          "name": "r-qtl",
+          "distName": "r-qtl-1.46_2-r35h0357c0b_0",
+          "buildNumber": 0,
+          "version": "1.46_2"
+        },
+        {
+          "buildString": "r35hfa343cc_1",
+          "name": "r-quadprog",
+          "distName": "r-quadprog-1.5_8-r35hfa343cc_1",
+          "buildNumber": 1,
+          "version": "1.5_8"
+        },
+        {
+          "buildString": "r35h9bbef5b_0",
+          "name": "r-quantreg",
+          "distName": "r-quantreg-5.55-r35h9bbef5b_0",
+          "buildNumber": 0,
+          "version": "5.55"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-r.methodss3",
+          "distName": "r-r.methodss3-1.8.0-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "1.8.0"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-r.oo",
+          "distName": "r-r.oo-1.23.0-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "1.23.0"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-r.utils",
+          "distName": "r-r.utils-2.9.2-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "2.9.2"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-r6",
+          "distName": "r-r6-2.4.1-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "2.4.1"
+        },
+        {
+          "buildString": "r35h0357c0b_1",
+          "name": "r-rann",
+          "distName": "r-rann-2.6.1-r35h0357c0b_1",
+          "buildNumber": 1,
+          "version": "2.6.1"
+        },
+        {
+          "buildString": "r35hcdcec82_1003",
+          "name": "r-rappdirs",
+          "distName": "r-rappdirs-0.3.1-r35hcdcec82_1003",
+          "buildNumber": 1003,
+          "version": "0.3.1"
+        },
+        {
+          "buildString": "r35h6115d3f_2",
+          "name": "r-rcmdcheck",
+          "distName": "r-rcmdcheck-1.3.3-r35h6115d3f_2",
+          "buildNumber": 2,
+          "version": "1.3.3"
+        },
+        {
+          "buildString": "r35h6115d3f_1002",
+          "name": "r-rcolorbrewer",
+          "distName": "r-rcolorbrewer-1.1_2-r35h6115d3f_1002",
+          "buildNumber": 1002,
+          "version": "1.1_2"
+        },
+        {
+          "buildString": "r35h0357c0b_0",
+          "name": "r-rcpp",
+          "distName": "r-rcpp-1.0.4.6-r35h0357c0b_0",
+          "buildNumber": 0,
+          "version": "1.0.4.6"
+        },
+        {
+          "buildString": "r35h0357c0b_0",
+          "name": "r-rcppannoy",
+          "distName": "r-rcppannoy-0.0.16-r35h0357c0b_0",
+          "buildNumber": 0,
+          "version": "0.0.16"
+        },
+        {
+          "buildString": "r35h51c796c_0",
+          "name": "r-rcpparmadillo",
+          "distName": "r-rcpparmadillo-0.9.870.2.0-r35h51c796c_0",
+          "buildNumber": 0,
+          "version": "0.9.870.2.0"
+        },
+        {
+          "buildString": "r35h0357c0b_0",
+          "name": "r-rcppeigen",
+          "distName": "r-rcppeigen-0.3.3.7.0-r35h0357c0b_0",
+          "buildNumber": 0,
+          "version": "0.3.3.7.0"
+        },
+        {
+          "buildString": "r35h0357c0b_0",
+          "name": "r-rcppnumerical",
+          "distName": "r-rcppnumerical-0.4_0-r35h0357c0b_0",
+          "buildNumber": 0,
+          "version": "0.4_0"
+        },
+        {
+          "buildString": "r35h0357c0b_0",
+          "name": "r-rcppparallel",
+          "distName": "r-rcppparallel-5.0.0-r35h0357c0b_0",
+          "buildNumber": 0,
+          "version": "5.0.0"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-rcppprogress",
+          "distName": "r-rcppprogress-0.4.2-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "0.4.2"
+        },
+        {
+          "buildString": "r35hcdcec82_0",
+          "name": "r-rcurl",
+          "distName": "r-rcurl-1.98_1.2-r35hcdcec82_0",
+          "buildNumber": 0,
+          "version": "1.98_1.2"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-rdpack",
+          "distName": "r-rdpack-0.11_1-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "0.11_1"
+        },
+        {
+          "buildString": "r35h0357c0b_1002",
+          "name": "r-readr",
+          "distName": "r-readr-1.3.1-r35h0357c0b_1002",
+          "buildNumber": 1002,
+          "version": "1.3.1"
+        },
+        {
+          "buildString": "r35hde08347_3",
+          "name": "r-readxl",
+          "distName": "r-readxl-1.3.1-r35hde08347_3",
+          "buildNumber": 3,
+          "version": "1.3.1"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-recipes",
+          "distName": "r-recipes-0.1.12-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "0.1.12"
+        },
+        {
+          "buildString": "r35h6115d3f_1",
+          "name": "r-registry",
+          "distName": "r-registry-0.5_1-r35h6115d3f_1",
+          "buildNumber": 1,
+          "version": "0.5_1"
+        },
+        {
+          "buildString": "r35h6115d3f_1002",
+          "name": "r-rematch",
+          "distName": "r-rematch-1.0.1-r35h6115d3f_1002",
+          "buildNumber": 1002,
+          "version": "1.0.1"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-rematch2",
+          "distName": "r-rematch2-2.1.2-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "2.1.2"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-remotes",
+          "distName": "r-remotes-2.1.1-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "2.1.1"
+        },
+        {
+          "buildString": "r35h6115d3f_1",
+          "name": "r-reprex",
+          "distName": "r-reprex-0.3.0-r35h6115d3f_1",
+          "buildNumber": 1,
+          "version": "0.3.0"
+        },
+        {
+          "buildString": "r35hcdcec82_1",
+          "name": "r-reshape",
+          "distName": "r-reshape-0.8.8-r35hcdcec82_1",
+          "buildNumber": 1,
+          "version": "0.8.8"
+        },
+        {
+          "buildString": "r35h0357c0b_0",
+          "name": "r-reshape2",
+          "distName": "r-reshape2-1.4.4-r35h0357c0b_0",
+          "buildNumber": 0,
+          "version": "1.4.4"
+        },
+        {
+          "buildString": "r35h0357c0b_0",
+          "name": "r-reticulate",
+          "distName": "r-reticulate-1.15-r35h0357c0b_0",
+          "buildNumber": 0,
+          "version": "1.15"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-rex",
+          "distName": "r-rex-1.2.0-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "1.2.0"
+        },
+        {
+          "buildString": "r35ha687ee4_0",
+          "name": "r-rgl",
+          "distName": "r-rgl-0.100.54-r35ha687ee4_0",
+          "buildNumber": 0,
+          "version": "0.100.54"
+        },
+        {
+          "buildString": "r35h6115d3f_1001",
+          "name": "r-rio",
+          "distName": "r-rio-0.5.16-r35h6115d3f_1001",
+          "buildNumber": 1001,
+          "version": "0.5.16"
+        },
+        {
+          "buildString": "r35h0357c0b_1001",
+          "name": "r-rjson",
+          "distName": "r-rjson-0.2.20-r35h0357c0b_1001",
+          "buildNumber": 1001,
+          "version": "0.2.20"
+        },
+        {
+          "buildString": "r35hcdcec82_2",
+          "name": "r-rlang",
+          "distName": "r-rlang-0.4.5-r35hcdcec82_2",
+          "buildNumber": 2,
+          "version": "0.4.5"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-rmarkdown",
+          "distName": "r-rmarkdown-2.1-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "2.1"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-rngtools",
+          "distName": "r-rngtools-1.5-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "1.5"
+        },
+        {
+          "buildString": "r35hbf399a0_0",
+          "name": "r-robust",
+          "distName": "r-robust-0.5_0.0-r35hbf399a0_0",
+          "buildNumber": 0,
+          "version": "0.5_0.0"
+        },
+        {
+          "buildString": "r35hbf399a0_0",
+          "name": "r-robustbase",
+          "distName": "r-robustbase-0.93_6-r35hbf399a0_0",
+          "buildNumber": 0,
+          "version": "0.93_6"
+        },
+        {
+          "buildString": "r35h6115d3f_1002",
+          "name": "r-rocr",
+          "distName": "r-rocr-1.0_7-r35h6115d3f_1002",
+          "buildNumber": 1002,
+          "version": "1.0_7"
+        },
+        {
+          "buildString": "r35h0357c0b_0",
+          "name": "r-roxygen2",
+          "distName": "r-roxygen2-7.1.0-r35h0357c0b_0",
+          "buildNumber": 0,
+          "version": "7.1.0"
+        },
+        {
+          "buildString": "r35hcdcec82_1",
+          "name": "r-rpart",
+          "distName": "r-rpart-4.1_15-r35hcdcec82_1",
+          "buildNumber": 1,
+          "version": "4.1_15"
+        },
+        {
+          "buildString": "r35h6115d3f_1002",
+          "name": "r-rprojroot",
+          "distName": "r-rprojroot-1.3_2-r35h6115d3f_1002",
+          "buildNumber": 1002,
+          "version": "1.3_2"
+        },
+        {
+          "buildString": "r35hfa343cc_1",
+          "name": "r-rrcov",
+          "distName": "r-rrcov-1.5_2-r35hfa343cc_1",
+          "buildNumber": 1,
+          "version": "1.5_2"
+        },
+        {
+          "buildString": "r35h0357c0b_0",
+          "name": "r-rspectra",
+          "distName": "r-rspectra-0.16_0-r35h0357c0b_0",
+          "buildNumber": 0,
+          "version": "0.16_0"
+        },
+        {
+          "buildString": "r35h0357c0b_0",
+          "name": "r-rsqlite",
+          "distName": "r-rsqlite-2.2.0-r35h0357c0b_0",
+          "buildNumber": 0,
+          "version": "2.2.0"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-rstudioapi",
+          "distName": "r-rstudioapi-0.11-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "0.11"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-rsvd",
+          "distName": "r-rsvd-1.0.3-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "1.0.3"
+        },
+        {
+          "buildString": "r35hc8faad4_2",
+          "name": "r-rtsne",
+          "distName": "r-rtsne-0.15-r35hc8faad4_2",
+          "buildNumber": 2,
+          "version": "0.15"
+        },
+        {
+          "buildString": "r35h6115d3f_1001",
+          "name": "r-runit",
+          "distName": "r-runit-0.4.32-r35h6115d3f_1001",
+          "buildNumber": 1001,
+          "version": "0.4.32"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-rvcheck",
+          "distName": "r-rvcheck-0.1.8-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "0.1.8"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-rversions",
+          "distName": "r-rversions-2.0.1-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "2.0.1"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-rvest",
+          "distName": "r-rvest-0.3.5-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "0.3.5"
+        },
+        {
+          "buildString": "r35h6115d3f_1",
+          "name": "r-sandwich",
+          "distName": "r-sandwich-2.5_1-r35h6115d3f_1",
+          "buildNumber": 1,
+          "version": "2.5_1"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-scales",
+          "distName": "r-scales-1.1.0-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "1.1.0"
+        },
+        {
+          "buildString": "r35h6115d3f_1002",
+          "name": "r-scatterplot3d",
+          "distName": "r-scatterplot3d-0.3_41-r35h6115d3f_1002",
+          "buildNumber": 1002,
+          "version": "0.3_41"
+        },
+        {
+          "buildString": "r35h0357c0b_0",
+          "name": "r-sctransform",
+          "distName": "r-sctransform-0.2.1-r35h0357c0b_0",
+          "buildNumber": 0,
+          "version": "0.2.1"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-segmented",
+          "distName": "r-segmented-1.1_0-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "1.1_0"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-selectr",
+          "distName": "r-selectr-0.4_2-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "0.4_2"
+        },
+        {
+          "buildString": "r35h6115d3f_1002",
+          "name": "r-sendmailr",
+          "distName": "r-sendmailr-1.2_1-r35h6115d3f_1002",
+          "buildNumber": 1002,
+          "version": "1.2_1"
+        },
+        {
+          "buildString": "r35hcdcec82_0",
+          "name": "r-seqinr",
+          "distName": "r-seqinr-3.6_1-r35hcdcec82_0",
+          "buildNumber": 0,
+          "version": "3.6_1"
+        },
+        {
+          "buildString": "r35h6115d3f_1001",
+          "name": "r-sessioninfo",
+          "distName": "r-sessioninfo-1.1.1-r35h6115d3f_1001",
+          "buildNumber": 1001,
+          "version": "1.1.1"
+        },
+        {
+          "buildString": "r35h0357c0b_0",
+          "name": "r-seurat",
+          "distName": "r-seurat-3.1.5-r35h0357c0b_0",
+          "buildNumber": 0,
+          "version": "3.1.5"
+        },
+        {
+          "buildString": "r35_1002",
+          "name": "r-shape",
+          "distName": "r-shape-1.4.4-r35_1002",
+          "buildNumber": 1002,
+          "version": "1.4.4"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-shiny",
+          "distName": "r-shiny-1.4.0.2-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "1.4.0.2"
+        },
+        {
+          "buildString": "r35h6115d3f_1",
+          "name": "r-shinythemes",
+          "distName": "r-shinythemes-1.1.2-r35h6115d3f_1",
+          "buildNumber": 1,
+          "version": "1.1.2"
+        },
+        {
+          "buildString": "r35h0357c0b_1",
+          "name": "r-sitmo",
+          "distName": "r-sitmo-2.0.1-r35h0357c0b_1",
+          "buildNumber": 1,
+          "version": "2.0.1"
+        },
+        {
+          "buildString": "r35hc57f18f_1",
+          "name": "r-slam",
+          "distName": "r-slam-0.1_47-r35hc57f18f_1",
+          "buildNumber": 1,
+          "version": "0.1_47"
+        },
+        {
+          "buildString": "r35h6115d3f_1001",
+          "name": "r-snow",
+          "distName": "r-snow-0.4_3-r35h6115d3f_1001",
+          "buildNumber": 1001,
+          "version": "0.4_3"
+        },
+        {
+          "buildString": "r35he1b5a44_1001",
+          "name": "r-sourcetools",
+          "distName": "r-sourcetools-0.1.7-r35he1b5a44_1001",
+          "buildNumber": 1001,
+          "version": "0.1.7"
+        },
+        {
+          "buildString": "r35hcdcec82_0",
+          "name": "r-sp",
+          "distName": "r-sp-1.4_1-r35hcdcec82_0",
+          "buildNumber": 0,
+          "version": "1.4_1"
+        },
+        {
+          "buildString": "r35hbf399a0_1",
+          "name": "r-spam",
+          "distName": "r-spam-2.5_1-r35hbf399a0_1",
+          "buildNumber": 1,
+          "version": "2.5_1"
+        },
+        {
+          "buildString": "r35h9bbef5b_0",
+          "name": "r-sparsem",
+          "distName": "r-sparsem-1.78-r35h9bbef5b_0",
+          "buildNumber": 0,
+          "version": "1.78"
+        },
+        {
+          "buildString": "r35hcdcec82_0",
+          "name": "r-sparsesvd",
+          "distName": "r-sparsesvd-0.2-r35hcdcec82_0",
+          "buildNumber": 0,
+          "version": "0.2"
+        },
+        {
+          "buildString": "r35hcdcec82_0",
+          "name": "r-spatialextremes",
+          "distName": "r-spatialextremes-2.0_8-r35hcdcec82_0",
+          "buildNumber": 0,
+          "version": "2.0_8"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-squarem",
+          "distName": "r-squarem-2020.2-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "2020.2"
+        },
+        {
+          "buildString": "r35h6e990d7_0",
+          "name": "r-statmod",
+          "distName": "r-statmod-1.4.34-r35h6e990d7_0",
+          "buildNumber": 0,
+          "version": "1.4.34"
+        },
+        {
+          "buildString": "r35h0357c0b_2",
+          "name": "r-stringi",
+          "distName": "r-stringi-1.4.3-r35h0357c0b_2",
+          "buildNumber": 2,
+          "version": "1.4.3"
+        },
+        {
+          "buildString": "r35h6115d3f_1",
+          "name": "r-stringr",
+          "distName": "r-stringr-1.4.0-r35h6115d3f_1",
+          "buildNumber": 1,
+          "version": "1.4.0"
+        },
+        {
+          "buildString": "r35h9bbef5b_0",
+          "name": "r-subplex",
+          "distName": "r-subplex-1.6-r35h9bbef5b_0",
+          "buildNumber": 0,
+          "version": "1.6"
+        },
+        {
+          "buildString": "r35hcdcec82_0",
+          "name": "r-survival",
+          "distName": "r-survival-3.1_12-r35hcdcec82_0",
+          "buildNumber": 0,
+          "version": "3.1_12"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-survminer",
+          "distName": "r-survminer-0.4.6-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "0.4.6"
+        },
+        {
+          "buildString": "r35h6115d3f_1002",
+          "name": "r-survmisc",
+          "distName": "r-survmisc-0.5.5-r35h6115d3f_1002",
+          "buildNumber": 1002,
+          "version": "0.5.5"
+        },
+        {
+          "buildString": "r35h9bbef5b_0",
+          "name": "r-svd",
+          "distName": "r-svd-0.5-r35h9bbef5b_0",
+          "buildNumber": 0,
+          "version": "0.5"
+        },
+        {
+          "buildString": "r35h0357c0b_0",
+          "name": "r-svglite",
+          "distName": "r-svglite-1.2.3-r35h0357c0b_0",
+          "buildNumber": 0,
+          "version": "1.2.3"
+        },
+        {
+          "buildString": "r35hcdcec82_0",
+          "name": "r-sys",
+          "distName": "r-sys-3.3-r35hcdcec82_0",
+          "buildNumber": 0,
+          "version": "3.3"
+        },
+        {
+          "buildString": "r35h0357c0b_0",
+          "name": "r-testthat",
+          "distName": "r-testthat-2.3.2-r35h0357c0b_0",
+          "buildNumber": 0,
+          "version": "2.3.2"
+        },
+        {
+          "buildString": "r35h6115d3f_1",
+          "name": "r-th.data",
+          "distName": "r-th.data-1.0_10-r35h6115d3f_1",
+          "buildNumber": 1,
+          "version": "1.0_10"
+        },
+        {
+          "buildString": "r35hcdcec82_0",
+          "name": "r-tibble",
+          "distName": "r-tibble-3.0.1-r35hcdcec82_0",
+          "buildNumber": 0,
+          "version": "3.0.1"
+        },
+        {
+          "buildString": "r35h0357c0b_0",
+          "name": "r-tidyr",
+          "distName": "r-tidyr-1.0.2-r35h0357c0b_0",
+          "buildNumber": 0,
+          "version": "1.0.2"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-tidyselect",
+          "distName": "r-tidyselect-1.0.0-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "1.0.0"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-tidytree",
+          "distName": "r-tidytree-0.3.3-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "0.3.3"
+        },
+        {
+          "buildString": "r35h6115d3f_1",
+          "name": "r-tidyverse",
+          "distName": "r-tidyverse-1.3.0-r35h6115d3f_1",
+          "buildNumber": 1,
+          "version": "1.3.0"
+        },
+        {
+          "buildString": "r35h6115d3f_1001",
+          "name": "r-timedate",
+          "distName": "r-timedate-3043.102-r35h6115d3f_1001",
+          "buildNumber": 1001,
+          "version": "3043.102"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-tinytex",
+          "distName": "r-tinytex-0.22-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "0.22"
+        },
+        {
+          "buildString": "r35hcdcec82_1001",
+          "name": "r-truncnorm",
+          "distName": "r-truncnorm-1.0_8-r35hcdcec82_1001",
+          "buildNumber": 1001,
+          "version": "1.0_8"
+        },
+        {
+          "buildString": "r35_1002",
+          "name": "r-tsne",
+          "distName": "r-tsne-0.1_3-r35_1002",
+          "buildNumber": 1002,
+          "version": "0.1_3"
+        },
+        {
+          "buildString": "r35h6115d3f_1",
+          "name": "r-upsetr",
+          "distName": "r-upsetr-1.4.0-r35h6115d3f_1",
+          "buildNumber": 1,
+          "version": "1.4.0"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-usethis",
+          "distName": "r-usethis-1.6.1-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "1.6.1"
+        },
+        {
+          "buildString": "r35hcdcec82_1002",
+          "name": "r-utf8",
+          "distName": "r-utf8-1.1.4-r35hcdcec82_1002",
+          "buildNumber": 1002,
+          "version": "1.1.4"
+        },
+        {
+          "buildString": "r35hcdcec82_0",
+          "name": "r-uuid",
+          "distName": "r-uuid-0.1_4-r35hcdcec82_0",
+          "buildNumber": 0,
+          "version": "0.1_4"
+        },
+        {
+          "buildString": "r35h0357c0b_0",
+          "name": "r-uwot",
+          "distName": "r-uwot-0.1.8-r35h0357c0b_0",
+          "buildNumber": 0,
+          "version": "0.1.8"
+        },
+        {
+          "buildString": "r35hcdcec82_0",
+          "name": "r-vctrs",
+          "distName": "r-vctrs-0.2.4-r35hcdcec82_0",
+          "buildNumber": 0,
+          "version": "0.2.4"
+        },
+        {
+          "buildString": "r35hbf399a0_1",
+          "name": "r-vegan",
+          "distName": "r-vegan-2.5_6-r35hbf399a0_1",
+          "buildNumber": 1,
+          "version": "2.5_6"
+        },
+        {
+          "buildString": "r35h6115d3f_1001",
+          "name": "r-venndiagram",
+          "distName": "r-venndiagram-1.6.20-r35h6115d3f_1001",
+          "buildNumber": 1001,
+          "version": "1.6.20"
+        },
+        {
+          "buildString": "r35h9bbef5b_0",
+          "name": "r-vgam",
+          "distName": "r-vgam-1.1_3-r35h9bbef5b_0",
+          "buildNumber": 0,
+          "version": "1.1_3"
+        },
+        {
+          "buildString": "r35h6115d3f_1002",
+          "name": "r-vipor",
+          "distName": "r-vipor-0.4.5-r35h6115d3f_1002",
+          "buildNumber": 1002,
+          "version": "0.4.5"
+        },
+        {
+          "buildString": "r35h6115d3f_1003",
+          "name": "r-viridis",
+          "distName": "r-viridis-0.5.1-r35h6115d3f_1003",
+          "buildNumber": 1003,
+          "version": "0.5.1"
+        },
+        {
+          "buildString": "r35h6115d3f_1002",
+          "name": "r-viridislite",
+          "distName": "r-viridislite-0.3.0-r35h6115d3f_1002",
+          "buildNumber": 1002,
+          "version": "0.3.0"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-webshot",
+          "distName": "r-webshot-0.5.2-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "0.5.2"
+        },
+        {
+          "buildString": "r351h29659fb_0",
+          "name": "r-wgcna",
+          "distName": "r-wgcna-1.68-r351h29659fb_0",
+          "buildNumber": 0,
+          "version": "1.68"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-whisker",
+          "distName": "r-whisker-0.4-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "0.4"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-withr",
+          "distName": "r-withr-2.2.0-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "2.2.0"
+        },
+        {
+          "buildString": "r35h6115d3f_0",
+          "name": "r-xfun",
+          "distName": "r-xfun-0.13-r35h6115d3f_0",
+          "buildNumber": 0,
+          "version": "0.13"
+        },
+        {
+          "buildString": "r35hcdcec82_0",
+          "name": "r-xml",
+          "distName": "r-xml-3.99_0.3-r35hcdcec82_0",
+          "buildNumber": 0,
+          "version": "3.99_0.3"
+        },
+        {
+          "buildString": "r35h0357c0b_0",
+          "name": "r-xml2",
+          "distName": "r-xml2-1.3.2-r35h0357c0b_0",
+          "buildNumber": 0,
+          "version": "1.3.2"
+        },
+        {
+          "buildString": "r35h6115d3f_1002",
+          "name": "r-xopen",
+          "distName": "r-xopen-1.0.0-r35h6115d3f_1002",
+          "buildNumber": 1002,
+          "version": "1.0.0"
+        },
+        {
+          "buildString": "r35h6115d3f_2",
+          "name": "r-xtable",
+          "distName": "r-xtable-1.8_4-r35h6115d3f_2",
+          "buildNumber": 2,
+          "version": "1.8_4"
+        },
+        {
+          "buildString": "r35hcdcec82_0",
+          "name": "r-yaml",
+          "distName": "r-yaml-2.2.1-r35hcdcec82_0",
+          "buildNumber": 0,
+          "version": "2.2.1"
+        },
+        {
+          "buildString": "r35h6115d3f_1001",
+          "name": "r-zeallot",
+          "distName": "r-zeallot-0.1.0-r35h6115d3f_1001",
+          "buildNumber": 1001,
+          "version": "0.1.0"
+        },
+        {
+          "buildString": "r35hcdcec82_0",
+          "name": "r-zip",
+          "distName": "r-zip-2.0.4-r35hcdcec82_0",
+          "buildNumber": 0,
+          "version": "2.0.4"
+        },
+        {
+          "buildString": "r35hcdcec82_0",
+          "name": "r-zoo",
+          "distName": "r-zoo-1.8_7-r35hcdcec82_0",
+          "buildNumber": 0,
+          "version": "1.8_7"
+        },
+        {
+          "buildString": "py36h4a7b924_1000",
+          "name": "rdkit",
+          "distName": "rdkit-2018.09.1-py36h4a7b924_1000",
+          "buildNumber": 1000,
+          "version": "2018.09.1"
+        },
+        {
+          "buildString": "he1b5a44_0",
+          "name": "re2",
+          "distName": "re2-2020.10.01-he1b5a44_0",
+          "buildNumber": 0,
+          "version": "2020.10.01"
+        },
+        {
+          "buildString": "hf8c457e_1001",
+          "name": "readline",
+          "distName": "readline-7.0-hf8c457e_1001",
+          "buildNumber": 1001,
+          "version": "7.0"
+        },
+        {
+          "buildString": "py_0",
+          "name": "requests",
+          "distName": "requests-2.24.0-py_0",
+          "buildNumber": 0,
+          "version": "2.24.0"
+        },
+        {
+          "buildString": "py36_2",
+          "name": "retrying",
+          "distName": "retrying-1.3.3-py36_2",
+          "buildNumber": 2,
+          "version": "1.3.3"
+        },
+        {
+          "buildString": "r3_0",
+          "name": "rfilepaths",
+          "distName": "rfilepaths-0.4.0-r3_0",
+          "buildNumber": 2,
+          "version": "0.4.0"
+        },
+        {
+          "buildString": "py36_0",
+          "name": "rinchi",
+          "distName": "rinchi-1.0.0-py36_0",
+          "buildNumber": 0,
+          "version": "1.0.0"
+        },
+        {
+          "buildString": "h10a08f8_12",
+          "name": "samtools",
+          "distName": "samtools-1.9-h10a08f8_12",
+          "buildNumber": 12,
+          "version": "1.9"
+        },
+        {
+          "buildString": "py36hfb379a7_0",
+          "name": "scikit-learn",
+          "distName": "scikit-learn-0.23.2-py36hfb379a7_0",
+          "buildNumber": 0,
+          "version": "0.23.2"
+        },
+        {
+          "buildString": "py36h3a855aa_0",
+          "name": "scipy",
+          "distName": "scipy-1.5.2-py36h3a855aa_0",
+          "buildNumber": 0,
+          "version": "1.5.2"
+        },
+        {
+          "buildString": "0",
+          "name": "seaborn",
+          "distName": "seaborn-0.11.0-0",
+          "buildNumber": 0,
+          "version": "0.11.0"
+        },
+        {
+          "buildString": "py_0",
+          "name": "seaborn-base",
+          "distName": "seaborn-base-0.11.0-py_0",
+          "buildNumber": 0,
+          "version": "0.11.0"
+        },
+        {
+          "buildString": "py36hb0f4dca_1",
+          "name": "setuptools",
+          "distName": "setuptools-50.3.0-py36hb0f4dca_1",
+          "buildNumber": 1,
+          "version": "50.3.0"
+        },
+        {
+          "buildString": "r351",
+          "name": "singler",
+          "distName": "singler-1.0-r351",
+          "buildNumber": 0,
+          "version": "1.0"
+        },
+        {
+          "buildString": "py36h831f99a_2",
+          "name": "sip",
+          "distName": "sip-4.19.24-py36h831f99a_2",
+          "buildNumber": 2,
+          "version": "4.19.24"
+        },
+        {
+          "buildString": "py_0",
+          "name": "six",
+          "distName": "six-1.15.0-py_0",
+          "buildNumber": 0,
+          "version": "1.15.0"
+        },
+        {
+          "buildString": "py_0",
+          "name": "sls-logging",
+          "distName": "sls-logging-0.7.1-py_0",
+          "buildNumber": 0,
+          "version": "0.7.1"
+        },
+        {
+          "buildString": "he1b5a44_3",
+          "name": "snappy",
+          "distName": "snappy-1.1.8-he1b5a44_3",
+          "buildNumber": 3,
+          "version": "1.1.8"
+        },
+        {
+          "buildString": "py_0",
+          "name": "sortedcontainers",
+          "distName": "sortedcontainers-2.2.2-py_0",
+          "buildNumber": 0,
+          "version": "2.2.2"
+        },
+        {
+          "buildString": "r351_0",
+          "name": "sparkr",
+          "distName": "sparkr-3.0.0_palantir.75.2-r351_0",
+          "buildNumber": 0,
+          "version": "3.0.0_palantir.75.2"
+        },
+        {
+          "buildString": "py_1",
+          "name": "spectra",
+          "distName": "spectra-0.0.11-py_1",
+          "buildNumber": 1,
+          "version": "0.0.11"
+        },
+        {
+          "buildString": "h7b6447c_0",
+          "name": "sqlite",
+          "distName": "sqlite-3.31.1-h7b6447c_0",
+          "buildNumber": 0,
+          "version": "3.31.1"
+        },
+        {
+          "buildString": "py36h8c4c3a4_0",
+          "name": "statsmodels",
+          "distName": "statsmodels-0.12.0-py36h8c4c3a4_0",
+          "buildNumber": 0,
+          "version": "0.12.0"
+        },
+        {
+          "buildString": "h3a0023d_0",
+          "name": "sysroot_linux-64",
+          "distName": "sysroot_linux-64-2.17-h3a0023d_0",
+          "buildNumber": 0,
+          "version": "2.17"
+        },
+        {
+          "buildString": "hfd86e86_0",
+          "name": "tbb",
+          "distName": "tbb-2020.3-hfd86e86_0",
+          "buildNumber": 0,
+          "version": "2020.3"
+        },
+        {
+          "buildString": "py_0",
+          "name": "tblib",
+          "distName": "tblib-1.7.0-py_0",
+          "buildNumber": 0,
+          "version": "1.7.0"
+        },
+        {
+          "buildString": "pyh5ca1d4c_0",
+          "name": "threadpoolctl",
+          "distName": "threadpoolctl-2.1.0-pyh5ca1d4c_0",
+          "buildNumber": 0,
+          "version": "2.1.0"
+        },
+        {
+          "buildString": "h02b749d_3",
+          "name": "thrift-cpp",
+          "distName": "thrift-cpp-0.11.0-h02b749d_3",
+          "buildNumber": 3,
+          "version": "0.11.0"
+        },
+        {
+          "buildString": "hed695b0_1",
+          "name": "tk",
+          "distName": "tk-8.6.10-hed695b0_1",
+          "buildNumber": 1,
+          "version": "8.6.10"
+        },
+        {
+          "buildString": "h555a92e_3",
+          "name": "tktable",
+          "distName": "tktable-2.10-h555a92e_3",
+          "buildNumber": 3,
+          "version": "2.10"
+        },
+        {
+          "buildString": "py_0",
+          "name": "toolz",
+          "distName": "toolz-0.11.1-py_0",
+          "buildNumber": 0,
+          "version": "0.11.1"
+        },
+        {
+          "buildString": "py36h7b6447c_1",
+          "name": "tornado",
+          "distName": "tornado-6.0.4-py36h7b6447c_1",
+          "buildNumber": 1,
+          "version": "6.0.4"
+        },
+        {
+          "buildString": "py_0",
+          "name": "transforms",
+          "distName": "transforms-1.230.1-py_0",
+          "buildNumber": 0,
+          "version": "1.230.1"
+        },
+        {
+          "buildString": "py36_0",
+          "name": "typing",
+          "distName": "typing-3.7.4.3-py36_0",
+          "buildNumber": 0,
+          "version": "3.7.4.3"
+        },
+        {
+          "buildString": "py_0",
+          "name": "typing_extensions",
+          "distName": "typing_extensions-3.7.4.3-py_0",
+          "buildNumber": 0,
+          "version": "3.7.4.3"
+        },
+        {
+          "buildString": "py36h9f0ad1d_0",
+          "name": "umap-learn",
+          "distName": "umap-learn-0.4.6-py36h9f0ad1d_0",
+          "buildNumber": 0,
+          "version": "0.4.6"
+        },
+        {
+          "buildString": "py_0",
+          "name": "urllib3",
+          "distName": "urllib3-1.25.10-py_0",
+          "buildNumber": 0,
+          "version": "1.25.10"
+        },
+        {
+          "buildString": "py_0",
+          "name": "vector-spark-module-api",
+          "distName": "vector-spark-module-api-5.22.0-py_0",
+          "buildNumber": 0,
+          "version": "5.22.0"
+        },
+        {
+          "buildString": "py_0",
+          "name": "vector-spark-module-py",
+          "distName": "vector-spark-module-py-5.22.0-py_0",
+          "buildNumber": 0,
+          "version": "5.22.0"
+        },
+        {
+          "buildString": "r3.5.1_0",
+          "name": "vector-spark-module-r",
+          "distName": "vector-spark-module-r-5.22.0-r3.5.1_0",
+          "buildNumber": 0,
+          "version": "5.22.0"
+        },
+        {
+          "buildString": "h20c2e04_0",
+          "name": "wget",
+          "distName": "wget-1.20.1-h20c2e04_0",
+          "buildNumber": 0,
+          "version": "1.20.1"
+        },
+        {
+          "buildString": "py_0",
+          "name": "wheel",
+          "distName": "wheel-0.35.1-py_0",
+          "buildNumber": 0,
+          "version": "0.35.1"
+        },
+        {
+          "buildString": "py36h7b6447c_1",
+          "name": "wrapt",
+          "distName": "wrapt-1.12.1-py36h7b6447c_1",
+          "buildNumber": 1,
+          "version": "1.12.1"
+        },
+        {
+          "buildString": "py_0",
+          "name": "xarray",
+          "distName": "xarray-0.16.1-py_0",
+          "buildNumber": 0,
+          "version": "0.16.1"
+        },
+        {
+          "buildString": "h516909a_1",
+          "name": "xz",
+          "distName": "xz-5.2.5-h516909a_1",
+          "buildNumber": 1,
+          "version": "5.2.5"
+        },
+        {
+          "buildString": "h516909a_0",
+          "name": "yaml",
+          "distName": "yaml-0.2.5-h516909a_0",
+          "buildNumber": 0,
+          "version": "0.2.5"
+        },
+        {
+          "buildString": "py_0",
+          "name": "zict",
+          "distName": "zict-2.0.0-py_0",
+          "buildNumber": 0,
+          "version": "2.0.0"
+        },
+        {
+          "buildString": "h516909a_1009",
+          "name": "zlib",
+          "distName": "zlib-1.2.11-h516909a_1009",
+          "buildNumber": 1009,
+          "version": "1.2.11"
+        },
+        {
+          "buildString": "h0a35d5f_1001",
+          "name": "zstd",
+          "distName": "zstd-1.3.7-h0a35d5f_1001",
+          "buildNumber": 1001,
+          "version": "1.3.7"
+        }
+      ],
+      "mavenPackages": []
+    },
+    "foundryType": "RFoundryObject"
+  }
+}
